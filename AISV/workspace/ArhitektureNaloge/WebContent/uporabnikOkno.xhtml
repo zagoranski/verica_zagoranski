@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+	
+	<ui:composition template="predlogaUporabnik.xhtml">
+	   <ui:define name="title"> Stran za dodajanje oseb </ui:define>
+	   <ui:define name="content">
+			<f:view>
+				<h:form>
+
+					<h:dataTable value="#{demo.vseOsebe()}" var="o">
+						<f:facet name="header">
+							<h:outputText value="Seznam vseh oseb"/>
+						</f:facet>
+						<h:column>
+							<f:facet name="header">
+								<h:outputText value="Priimek"/>
+							</f:facet>
+							<h:outputText  value="#{o.priimek}"/>
+						</h:column>
+						<h:column>
+							<f:facet name="header">
+								<h:outputText value="Ime"/>
+							</f:facet>
+							<h:outputText  value="#{o.ime}"/>
+						</h:column>
+						<h:column>
+							<f:facet name="header">
+								<h:outputText value="Sifra"/>
+							</f:facet>
+							<h:commandLink action="#{demo.izberiOseboUporabnik(o.sifra)}" value="#{o.sifra}"/>
+						</h:column>
+					</h:dataTable>
+					
+
+				</h:form>
+			</f:view>
+			</ui:define>
+	</ui:composition>
+</html>

@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+	
+	<ui:composition template="templateTrening.xhtml">
+	   <ui:define name="title"> Stran za dodajanje treninga </ui:define>
+	   <ui:define name="content">
+		<f:view>
+			<h:form>
+			<table border = "0">
+			<tr>
+				<td>Sifra:</td>
+				<td><h:inputText value="#{zrno.noviTrening.sifraVadbe}" >	
+				<f:validateRequired />
+			    </h:inputText></td>
+			</tr>
+			<tr>
+				<td>Naziv vadbe:</td>
+				<td><h:inputText value="#{zrno.noviTrening.naziv}" >
+					<f:validateRequired />
+					</h:inputText></td>
+			</tr>
+			<tr>
+				<td>Del telesa:</td>
+				<td><h:inputText value="#{zrno.noviTrening.delTelesa}" >
+					<f:validateRequired />
+					</h:inputText></td>
+			</tr>
+			<tr>
+				<td>Vnesi napravo:</td>
+				<td><h:inputText value="#{zrno.noviTrening.naprava}" >
+				<f:validateRequired />
+				</h:inputText></td>
+			</tr>
+			<tr>
+				<td>Opis: </td>
+				<td><h:inputText value="#{zrno.noviTrening.opis}">
+				<f:validateRequired />
+				</h:inputText></td>
+			</tr>
+			<tr>
+				<td>Slika:</td>
+				<td><h:inputText value="#{zrno.noviTrening.slika}">
+				<f:validateRequired />
+				</h:inputText></td>
+			</tr>
+			<tr>
+				<td>Video:</td>
+				<td><h:inputText value="#{zrno.noviTrening.video}">
+				<f:validateRequired />
+				</h:inputText></td>
+				<td><h:commandButton value="Dodaj" action="seznamTreningov.xhtml" actionListener="#{zrno.dodajTrening()}" /></td>
+			</tr>
+	
+			</table>
+							
+			
+
+			</h:form>
+		</f:view>
+		
+	</ui:define>
+	</ui:composition>
+	
+</html>

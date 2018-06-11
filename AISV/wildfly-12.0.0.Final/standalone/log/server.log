@@ -1,0 +1,777 @@
+2018-04-19 10:30:27,632 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2018-04-19 10:30:31,296 INFO  [org.jboss.msc] (main) JBoss MSC version 1.3.2.Final
+2018-04-19 10:30:31,326 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.1.Final
+2018-04-19 10:30:32,144 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) starting
+2018-04-19 10:30:32,147 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1250
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\jboss-modules.jar;C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_121\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_121
+	java.io.tmpdir = C:\Users\ADMINI~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_121-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final
+	jboss.host.name = desktop-9mmtd6a
+	jboss.modules.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-9mmtd6a
+	jboss.qualified.host.name = desktop-9mmtd6a
+	jboss.server.base.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\log
+	jboss.server.name = desktop-9mmtd6a
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\configuration\logging.properties
+	module.path = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 11
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_121\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1250
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = HR
+	user.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\bin
+	user.home = C:\Users\Administrator
+	user.language = hr
+	user.name = Administrator
+	user.script = 
+	user.timezone = Europe/Belgrade
+	user.variant = 
+2018-04-19 10:30:32,151 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=JBossTools: WildFly 11 -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1250 
+2018-04-19 10:30:42,775 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-04-19 10:30:42,927 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 22) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-04-19 10:30:42,992 INFO  [org.wildfly.security] (ServerService Thread Pool -- 5) ELY00001: WildFly Elytron version 1.2.2.Final
+2018-04-19 10:30:43,152 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found EARAiv.ear in deployment directory. To trigger deployment create a file called EARAiv.ear.dodeploy
+2018-04-19 10:30:43,370 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-04-19 10:30:43,429 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.6.2.Final
+2018-04-19 10:30:43,455 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.6.2.Final
+2018-04-19 10:30:43,736 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2018-04-19 10:30:43,772 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Activating Security Subsystem
+2018-04-19 10:30:43,768 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Activating Naming Subsystem
+2018-04-19 10:30:43,815 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-04-19 10:30:43,837 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-04-19 10:30:43,850 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy version 3.5.0.Final
+2018-04-19 10:30:43,898 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2018-04-19 10:30:43,916 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Activating WebServices Extension
+2018-04-19 10:30:44,187 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.7.Final)
+2018-04-19 10:30:44,775 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 2.0.0.Final starting
+2018-04-19 10:30:45,677 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-04-19 10:30:45,690 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = mysql
+2018-04-19 10:30:45,975 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-04-19 10:30:45,993 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2018-04-19 10:30:46,002 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-04-19 10:30:46,124 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2018-04-19 10:30:46,128 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-04-19 10:30:46,157 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Creating file handler for path 'C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-04-19 10:30:46,453 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2018-04-19 10:30:46,466 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2018-04-19 10:30:46,565 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.5.Final
+2018-04-19 10:30:46,902 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-04-19 10:30:46,902 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-04-19 10:30:47,279 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-04-19 10:30:47,752 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0493: EJB subsystem suspension complete
+2018-04-19 10:30:48,207 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/aiv123]
+2018-04-19 10:30:48,208 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-04-19 10:30:49,491 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2018-04-19 10:30:49,989 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-6) WFLYDM0111: Keystore C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-04-19 10:30:50,001 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\deployments
+2018-04-19 10:30:50,020 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "EARAiv.ear" (runtime-name: "EARAiv.ear")
+2018-04-19 10:30:50,521 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "EJBProjekt.jar")
+2018-04-19 10:30:50,521 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0207: Starting subdeployment (runtime-name: "ArhitektureNaloge.war")
+2018-04-19 10:30:51,079 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-04-19 10:30:52,413 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBossWS 5.2.0.Final (Apache CXF 3.2.2) 
+2018-04-19 10:30:54,523 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for aivTreningi
+2018-04-19 10:30:55,629 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 63) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-19 10:30:55,656 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment EARAiv.ear
+2018-04-19 10:30:55,824 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 63) HHH000204: Processing PersistenceUnitInfo [
+	name: aivTreningi
+	...]
+2018-04-19 10:30:56,749 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 5.3.6.Final
+2018-04-19 10:30:57,469 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 63) HHH000412: Hibernate Core {5.1.10.Final}
+2018-04-19 10:30:57,475 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 63) HHH000206: hibernate.properties not found
+2018-04-19 10:30:57,479 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 63) HHH000021: Bytecode provider name : javassist
+2018-04-19 10:30:57,883 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 63) HCANN000001: Hibernate Commons Annotations {5.0.2.Final}
+2018-04-19 10:30:58,078 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment ArhitektureNaloge.war
+2018-04-19 10:30:58,170 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment EJBProjekt.jar
+2018-04-19 10:30:58,368 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'Zrnce' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:app/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:module/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:jboss/exported/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:global/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:app/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:module/Zrnce!si.feri.arhitekture.ZrnceLocal
+
+2018-04-19 10:30:58,370 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ClanBean' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/ClanBean!si.feri.aiv.ejb.meritve.ClanDao
+	java:app/EJBProjekt/ClanBean!si.feri.aiv.ejb.meritve.ClanDao
+	java:module/ClanBean!si.feri.aiv.ejb.meritve.ClanDao
+	java:global/EARAiv/EJBProjekt/ClanBean
+	java:app/EJBProjekt/ClanBean
+	java:module/ClanBean
+
+2018-04-19 10:30:58,372 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'TreningiBean' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:app/EJBProjekt/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:module/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:global/EARAiv/EJBProjekt/TreningiBean
+	java:app/EJBProjekt/TreningiBean
+	java:module/TreningiBean
+
+2018-04-19 10:30:59,145 INFO  [org.jboss.weld.Version] (MSC service thread 1-1) WELD-000900: 3.0.3 (Final)
+2018-04-19 10:31:00,575 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 63) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-19 10:31:00,748 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-2) ISPN000128: Infinispan version: Infinispan 'Bastille' 9.1.6.Final
+2018-04-19 10:31:01,819 ERROR [stderr] (ServerService Thread Pool -- 63) Thu Apr 19 10:31:01 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2018-04-19 10:31:01,924 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-04-19 10:31:02,288 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 63) IJ000407: No lazy enlistment available for aiv123
+2018-04-19 10:31:02,402 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 63) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-19 10:31:02,566 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 63) Envers integration enabled? : true
+2018-04-19 10:31:07,188 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 63) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@6dcdfe77'
+2018-04-19 10:31:07,577 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-6) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2018-04-19 10:31:07,615 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-6) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.jberet.creation.BatchBeanProducer is deprecated from CDI 1.1!
+2018-04-19 10:31:07,663 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-6) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.hibernate.validator.internal.cdi.interceptor.ValidationInterceptor is deprecated from CDI 1.1!
+2018-04-19 10:31:10,155 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 64) Initializing Mojarra 2.2.13.SP5  for context '/ArhitektureNaloge'
+2018-04-19 10:31:13,288 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 64) Running on PrimeFaces 6.2
+2018-04-19 10:31:13,710 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 64) WFLYUT0021: Registered web context: '/ArhitektureNaloge' for server 'default-server'
+2018-04-19 10:31:13,748 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "EARAiv.ear" (runtime-name : "EARAiv.ear")
+2018-04-19 10:31:16,338 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2018-04-19 10:31:16,345 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-04-19 10:31:16,346 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-04-19 10:31:16,346 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) started in 51387ms - Started 603 of 793 services (321 services are lazy, passive or on-demand)
+2018-04-19 10:41:02,897 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0022: Unregistered web context: '/ArhitektureNaloge' from server 'default-server'
+2018-04-19 10:41:02,992 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 75) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-19 10:41:02,994 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (ServerService Thread Pool -- 75) HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-04-19 10:41:03,709 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 75) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-19 10:41:03,761 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0208: Stopped subdeployment (runtime-name: EJBProjekt.jar) in 891ms
+2018-04-19 10:41:04,032 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0208: Stopped subdeployment (runtime-name: ArhitektureNaloge.war) in 1161ms
+2018-04-19 10:41:04,035 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment EARAiv.ear (runtime-name: EARAiv.ear) in 1165ms
+2018-04-19 10:41:04,241 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "EARAiv.ear" (runtime-name: "EARAiv.ear")
+2018-04-19 10:41:09,290 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found EARAiv.ear in deployment directory. To trigger deployment create a file called EARAiv.ear.dodeploy
+2018-04-19 10:41:09,310 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "EARAiv.ear" (runtime-name: "EARAiv.ear")
+2018-04-19 10:41:09,358 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "EJBProjekt.jar")
+2018-04-19 10:41:09,358 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0207: Starting subdeployment (runtime-name: "ArhitektureNaloge.war")
+2018-04-19 10:41:09,932 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for aivTreningi
+2018-04-19 10:41:10,089 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 75) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-19 10:41:10,090 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 75) HHH000204: Processing PersistenceUnitInfo [
+	name: aivTreningi
+	...]
+2018-04-19 10:41:10,165 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment EARAiv.ear
+2018-04-19 10:41:10,250 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment EJBProjekt.jar
+2018-04-19 10:41:10,255 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'Zrnce' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:app/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:module/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:jboss/exported/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:global/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:app/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:module/Zrnce!si.feri.arhitekture.ZrnceLocal
+
+2018-04-19 10:41:10,256 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'ClanBean' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/ClanBean!si.feri.aiv.ejb.meritve.ClanDao
+	java:app/EJBProjekt/ClanBean!si.feri.aiv.ejb.meritve.ClanDao
+	java:module/ClanBean!si.feri.aiv.ejb.meritve.ClanDao
+	java:global/EARAiv/EJBProjekt/ClanBean
+	java:app/EJBProjekt/ClanBean
+	java:module/ClanBean
+
+2018-04-19 10:41:10,257 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'TreningiBean' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:app/EJBProjekt/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:module/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:global/EARAiv/EJBProjekt/TreningiBean
+	java:app/EJBProjekt/TreningiBean
+	java:module/TreningiBean
+
+2018-04-19 10:41:10,293 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment ArhitektureNaloge.war
+2018-04-19 10:41:10,688 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 75) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-19 10:41:10,690 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 75) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-19 10:41:10,714 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 75) Envers integration enabled? : true
+2018-04-19 10:41:12,093 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 75) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@6dcdfe77'
+2018-04-19 10:41:12,181 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-1) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2018-04-19 10:41:12,184 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-1) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.hibernate.validator.internal.cdi.interceptor.ValidationInterceptor is deprecated from CDI 1.1!
+2018-04-19 10:41:12,189 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-1) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.jberet.creation.BatchBeanProducer is deprecated from CDI 1.1!
+2018-04-19 10:41:13,063 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 72) Initializing Mojarra 2.2.13.SP5  for context '/ArhitektureNaloge'
+2018-04-19 10:41:15,014 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 72) Running on PrimeFaces 6.2
+2018-04-19 10:41:15,017 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 72) WFLYUT0021: Registered web context: '/ArhitektureNaloge' for server 'default-server'
+2018-04-19 10:41:15,097 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "EARAiv.ear" (runtime-name : "EARAiv.ear")
+2018-04-19 10:51:03,681 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 72) WFLYUT0022: Unregistered web context: '/ArhitektureNaloge' from server 'default-server'
+2018-04-19 10:56:03,685 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 1) WFLYCTL0348: Timeout after [300] seconds waiting for service container stability. Operation will roll back. Step that first updated the service container was 'undeploy' at address '[("deployment" => "EARAiv.ear")]'
+2018-04-19 10:56:08,704 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 1) WFLYCTL0190: Step handler org.jboss.as.server.deployment.DeploymentHandlerUtil$5@393fa9df for operation undeploy at address [("deployment" => "EARAiv.ear")] failed handling operation rollback -- java.lang.IllegalStateException: WFLYCTL0345: Timeout after 5 seconds waiting for existing service service jboss.deployment.unit."EARAiv.ear".contents to be removed so a new instance can be installed.: java.lang.IllegalStateException: WFLYCTL0345: Timeout after 5 seconds waiting for existing service service jboss.deployment.unit."EARAiv.ear".contents to be removed so a new instance can be installed.
+	at org.jboss.as.controller.OperationContextImpl.installService(OperationContextImpl.java:2024)
+	at org.jboss.as.controller.OperationContextImpl.access$600(OperationContextImpl.java:135)
+	at org.jboss.as.controller.OperationContextImpl$2$1.installService(OperationContextImpl.java:758)
+	at org.jboss.as.controller.OperationContextImpl$ContextServiceBuilder.install(OperationContextImpl.java:2236)
+	at org.jboss.msc.service.DelegatingServiceBuilder.install(DelegatingServiceBuilder.java:188)
+	at org.jboss.as.server.deployment.PathContentServitor.addService(PathContentServitor.java:51)
+	at org.jboss.as.server.deployment.DeploymentHandlerUtil.doDeploy(DeploymentHandlerUtil.java:203)
+	at org.jboss.as.server.deployment.DeploymentHandlerUtil$5$1.handleResult(DeploymentHandlerUtil.java:386)
+	at org.jboss.as.controller.AbstractOperationContext$Step.invokeResultHandler(AbstractOperationContext.java:1500)
+	at org.jboss.as.controller.AbstractOperationContext$Step.handleResult(AbstractOperationContext.java:1482)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeInternal(AbstractOperationContext.java:1439)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeStep(AbstractOperationContext.java:1422)
+	at org.jboss.as.controller.AbstractOperationContext$Step.access$400(AbstractOperationContext.java:1286)
+	at org.jboss.as.controller.AbstractOperationContext.executeResultHandlerPhase(AbstractOperationContext.java:859)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:709)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:450)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1408)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)
+	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:263)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:229)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.lambda$runOperation$0(ModelControllerClientFactoryImpl.java:235)
+	at org.jboss.as.controller.access.InVmAccess.runInVm(InVmAccess.java:63)
+	at org.jboss.as.controller.SecurityActions$InVmActions$1.runInVm(SecurityActions.java:149)
+	at org.jboss.as.controller.SecurityActions.runInVm(SecurityActions.java:49)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.runOperation(ModelControllerClientFactoryImpl.java:235)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.access$500(ModelControllerClientFactoryImpl.java:110)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$2.run(ModelControllerClientFactoryImpl.java:190)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+
+2018-04-19 10:56:13,737 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 1) WFLYCTL0349: Timeout after [5] seconds waiting for service container stability while finalizing an operation. Process must be restarted. Step that first updated the service container was 'undeploy' at address '[("deployment" => "EARAiv.ear")]'
+2018-04-19 10:58:47,910 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2018-04-19 10:58:49,352 INFO  [org.jboss.msc] (main) JBoss MSC version 1.3.2.Final
+2018-04-19 10:58:49,382 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.1.Final
+2018-04-19 10:58:49,738 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) starting
+2018-04-19 10:58:49,741 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1250
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\jboss-modules.jar;C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_121\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_121
+	java.io.tmpdir = C:\Users\ADMINI~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_121-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final
+	jboss.host.name = desktop-9mmtd6a
+	jboss.modules.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-9mmtd6a
+	jboss.qualified.host.name = desktop-9mmtd6a
+	jboss.server.base.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\log
+	jboss.server.name = desktop-9mmtd6a
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\configuration\logging.properties
+	module.path = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 11
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_121\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1250
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = HR
+	user.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\bin
+	user.home = C:\Users\Administrator
+	user.language = hr
+	user.name = Administrator
+	user.script = 
+	user.timezone = Europe/Belgrade
+	user.variant = 
+2018-04-19 10:58:49,743 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=JBossTools: WildFly 11 -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1250 
+2018-04-19 10:58:54,947 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-04-19 10:58:55,113 INFO  [org.wildfly.security] (ServerService Thread Pool -- 14) ELY00001: WildFly Elytron version 1.2.2.Final
+2018-04-19 10:58:55,268 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 4) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-04-19 10:58:55,590 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found EARAiv.ear in deployment directory. To trigger deployment create a file called EARAiv.ear.dodeploy
+2018-04-19 10:58:55,793 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-04-19 10:58:55,867 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.6.2.Final
+2018-04-19 10:58:55,893 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.6.2.Final
+2018-04-19 10:58:56,146 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-04-19 10:58:56,156 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2018-04-19 10:58:56,181 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Activating WebServices Extension
+2018-04-19 10:58:56,214 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy version 3.5.0.Final
+2018-04-19 10:58:56,449 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.7.Final)
+2018-04-19 10:58:56,470 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-04-19 10:58:56,546 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Activating Naming Subsystem
+2018-04-19 10:58:56,626 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Activating Security Subsystem
+2018-04-19 10:58:56,656 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 2.0.0.Final starting
+2018-04-19 10:58:56,960 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2018-04-19 10:58:56,981 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-04-19 10:58:57,060 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = mysql
+2018-04-19 10:58:57,062 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2018-04-19 10:58:57,120 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-04-19 10:58:57,139 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+2018-04-19 10:58:57,233 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-04-19 10:58:57,771 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Creating file handler for path 'C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-04-19 10:58:58,284 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-04-19 10:58:58,322 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-04-19 10:58:58,321 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-04-19 10:58:58,539 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+2018-04-19 10:58:58,562 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2018-04-19 10:58:58,611 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.5.Final
+2018-04-19 10:58:58,774 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2018-04-19 10:58:58,823 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-04-19 10:58:58,851 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-4) WFLYDM0111: Keystore C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-04-19 10:58:58,878 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\deployments
+2018-04-19 10:58:58,958 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "EARAiv.ear" (runtime-name: "EARAiv.ear")
+2018-04-19 10:58:59,117 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0493: EJB subsystem suspension complete
+2018-04-19 10:58:59,302 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0207: Starting subdeployment (runtime-name: "EJBProjekt.jar")
+2018-04-19 10:58:59,357 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "ArhitektureNaloge.war")
+2018-04-19 10:58:59,960 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/aiv123]
+2018-04-19 10:58:59,998 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-04-19 10:59:00,895 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-04-19 10:59:01,360 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBossWS 5.2.0.Final (Apache CXF 3.2.2) 
+2018-04-19 10:59:02,010 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for aivTreningi
+2018-04-19 10:59:02,552 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 62) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-19 10:59:02,580 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment EARAiv.ear
+2018-04-19 10:59:02,635 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 62) HHH000204: Processing PersistenceUnitInfo [
+	name: aivTreningi
+	...]
+2018-04-19 10:59:03,083 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-6) HV000001: Hibernate Validator 5.3.6.Final
+2018-04-19 10:59:03,184 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 62) HHH000412: Hibernate Core {5.1.10.Final}
+2018-04-19 10:59:03,197 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 62) HHH000206: hibernate.properties not found
+2018-04-19 10:59:03,251 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 62) HHH000021: Bytecode provider name : javassist
+2018-04-19 10:59:03,461 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 62) HCANN000001: Hibernate Commons Annotations {5.0.2.Final}
+2018-04-19 10:59:04,210 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment EJBProjekt.jar
+2018-04-19 10:59:04,238 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ArhitektureNaloge.war
+2018-04-19 10:59:04,265 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'Zrnce' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:app/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:module/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:jboss/exported/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:global/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:app/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:module/Zrnce!si.feri.arhitekture.ZrnceLocal
+
+2018-04-19 10:59:04,268 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ClanBean' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/ClanBean!si.feri.aiv.ejb.meritve.ClanDao
+	java:app/EJBProjekt/ClanBean!si.feri.aiv.ejb.meritve.ClanDao
+	java:module/ClanBean!si.feri.aiv.ejb.meritve.ClanDao
+	java:global/EARAiv/EJBProjekt/ClanBean
+	java:app/EJBProjekt/ClanBean
+	java:module/ClanBean
+
+2018-04-19 10:59:04,269 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'TreningiBean' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:app/EJBProjekt/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:module/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:global/EARAiv/EJBProjekt/TreningiBean
+	java:app/EJBProjekt/TreningiBean
+	java:module/TreningiBean
+
+2018-04-19 10:59:04,802 INFO  [org.jboss.weld.Version] (MSC service thread 1-3) WELD-000900: 3.0.3 (Final)
+2018-04-19 10:59:06,090 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-7) ISPN000128: Infinispan version: Infinispan 'Bastille' 9.1.6.Final
+2018-04-19 10:59:06,144 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 62) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-19 10:59:06,722 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-04-19 10:59:06,834 ERROR [stderr] (ServerService Thread Pool -- 62) Thu Apr 19 10:59:06 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2018-04-19 10:59:07,179 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 62) IJ000407: No lazy enlistment available for aiv123
+2018-04-19 10:59:07,219 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 62) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-19 10:59:07,362 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 62) Envers integration enabled? : true
+2018-04-19 10:59:10,558 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 62) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1508cea1'
+2018-04-19 10:59:10,856 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-7) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2018-04-19 10:59:10,896 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-7) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.jberet.creation.BatchBeanProducer is deprecated from CDI 1.1!
+2018-04-19 10:59:10,931 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-7) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.hibernate.validator.internal.cdi.interceptor.ValidationInterceptor is deprecated from CDI 1.1!
+2018-04-19 10:59:12,601 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 66) Initializing Mojarra 2.2.13.SP5  for context '/ArhitektureNaloge'
+2018-04-19 10:59:15,371 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 66) Running on PrimeFaces 6.2
+2018-04-19 10:59:15,471 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0021: Registered web context: '/ArhitektureNaloge' for server 'default-server'
+2018-04-19 10:59:15,585 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "EARAiv.ear" (runtime-name : "EARAiv.ear")
+2018-04-19 10:59:15,968 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2018-04-19 10:59:15,974 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-04-19 10:59:15,975 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-04-19 10:59:15,975 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) started in 29208ms - Started 603 of 793 services (321 services are lazy, passive or on-demand)
+2018-04-19 11:07:34,330 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0022: Unregistered web context: '/ArhitektureNaloge' from server 'default-server'
+2018-04-19 11:07:34,402 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 72) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-19 11:07:34,404 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (ServerService Thread Pool -- 72) HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-04-19 11:07:35,025 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 72) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-19 11:07:35,089 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0208: Stopped subdeployment (runtime-name: EJBProjekt.jar) in 800ms
+2018-04-19 11:07:35,347 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0208: Stopped subdeployment (runtime-name: ArhitektureNaloge.war) in 1059ms
+2018-04-19 11:07:35,349 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment EARAiv.ear (runtime-name: EARAiv.ear) in 1067ms
+2018-04-19 11:07:35,520 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "EARAiv.ear" (runtime-name: "EARAiv.ear")
+2018-04-19 11:07:40,632 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found EARAiv.ear in deployment directory. To trigger deployment create a file called EARAiv.ear.dodeploy
+2018-04-19 11:07:40,649 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "EARAiv.ear" (runtime-name: "EARAiv.ear")
+2018-04-19 11:07:40,700 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "ArhitektureNaloge.war")
+2018-04-19 11:07:40,700 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "EJBProjekt.jar")
+2018-04-19 11:07:41,469 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for aivTreningi
+2018-04-19 11:07:41,791 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 72) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-19 11:07:41,831 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 72) HHH000204: Processing PersistenceUnitInfo [
+	name: aivTreningi
+	...]
+2018-04-19 11:07:42,056 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment EARAiv.ear
+2018-04-19 11:07:42,816 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment EJBProjekt.jar
+2018-04-19 11:07:42,825 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'Zrnce' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:app/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:module/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:jboss/exported/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:global/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:app/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:module/Zrnce!si.feri.arhitekture.ZrnceLocal
+
+2018-04-19 11:07:42,826 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ClanBean' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/ClanBean!si.feri.aiv.ejb.meritve.ClanDao
+	java:app/EJBProjekt/ClanBean!si.feri.aiv.ejb.meritve.ClanDao
+	java:module/ClanBean!si.feri.aiv.ejb.meritve.ClanDao
+	java:global/EARAiv/EJBProjekt/ClanBean
+	java:app/EJBProjekt/ClanBean
+	java:module/ClanBean
+
+2018-04-19 11:07:42,856 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'TreningiBean' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:app/EJBProjekt/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:module/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:global/EARAiv/EJBProjekt/TreningiBean
+	java:app/EJBProjekt/TreningiBean
+	java:module/TreningiBean
+
+2018-04-19 11:07:42,908 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment ArhitektureNaloge.war
+2018-04-19 11:07:43,275 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-5) MSC000001: Failed to start service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".INSTALL: org.jboss.msc.service.StartException in service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".INSTALL: WFLYSRV0153: Failed to process phase INSTALL of subdeployment "ArhitektureNaloge.war" of deployment "EARAiv.ear"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:151)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1714)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1693)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1540)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1364)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: WFLYEJB0406: No EJB found with interface of type 'si.feri.aiv.ejb.meritve.ClanBean' for binding si.feri.aiv.ClanSoap.ClanSoap/ejb
+	at org.jboss.as.ejb3.deployment.processors.EjbInjectionSource.getResourceValue(EjbInjectionSource.java:90)
+	at org.jboss.as.ee.component.deployers.ModuleJndiBindingProcessor.addJndiBinding(ModuleJndiBindingProcessor.java:216)
+	at org.jboss.as.ee.component.deployers.ModuleJndiBindingProcessor$1.handle(ModuleJndiBindingProcessor.java:187)
+	at org.jboss.as.ee.component.ClassDescriptionTraversal.run(ClassDescriptionTraversal.java:54)
+	at org.jboss.as.ee.component.deployers.ModuleJndiBindingProcessor.processClassConfigurations(ModuleJndiBindingProcessor.java:191)
+	at org.jboss.as.ee.component.deployers.ModuleJndiBindingProcessor.deploy(ModuleJndiBindingProcessor.java:148)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:144)
+	... 8 more
+
+2018-04-19 11:07:43,483 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 72) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-19 11:07:43,485 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 72) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-19 11:07:43,558 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 72) Envers integration enabled? : true
+2018-04-19 11:07:44,824 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 72) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1508cea1'
+2018-04-19 11:07:44,858 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 1) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "EARAiv.ear")]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".INSTALL" => "WFLYSRV0153: Failed to process phase INSTALL of subdeployment \"ArhitektureNaloge.war\" of deployment \"EARAiv.ear\"
+    Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: WFLYEJB0406: No EJB found with interface of type 'si.feri.aiv.ejb.meritve.ClanBean' for binding si.feri.aiv.ClanSoap.ClanSoap/ejb"},
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "jboss.deployment.unit.\"EARAiv.ear\".WeldStartService",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".batch.environment",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".component.\"managed-bean.org.primefaces.application.resource.DynamicResourcesPhaseListener\".START",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.TreningiBean.WeldInstantiator",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.ClanBean.WeldInterceptorBindingsService",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.TreningiBean.START",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.Zrnce.START",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.Zrnce.WeldInstantiator",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".deploymentCompleteService",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".component.\"javax.servlet.jsp.jstl.tlv.ScriptFreeTLV\".START",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.TreningiBean.WeldInterceptorBindingsService",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".component.\"javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV\".START",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".component.\"javax.faces.webapp.FacetTag\".START",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".component.\"managed-bean.si.feri.aiv.jsf.DemoBean\".START",
+        "jboss.deployment.unit.\"EARAiv.ear\".CLEANUP",
+        "jboss.deployment.unit.\"EARAiv.ear\".weld.weldClassIntrospector",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".jndiDependencyService",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".component.\"si.feri.aiv.ClanSoap.ClanSoap\".START",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".weld.weldClassIntrospector",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".batch.artifact.factory",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.Zrnce.WeldInterceptorBindingsService",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".component.\"managed-bean.PrvaNaloga\".START",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.ClanBean.START",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".component.\"managed-bean.org.primefaces.util.AutoUpdateComponentPhaseListener\".START",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".beanmanager",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".deploymentCompleteService",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.ClanBean.WeldInstantiator",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".component.\"com.sun.faces.config.ConfigureListener\".START",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".component.\"managed-bean.org.primefaces.component.autoupdate.AutoUpdatePhaseListener\".START",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".component.\"javax.faces.webapp.FacesServlet\".START"
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".deploymentCompleteService is missing [jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.Zrnce.START, jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.TreningiBean.START, jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.ClanBean.START]",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".batch.environment is missing [jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".batch.artifact.factory]",
+        "jboss.deployment.unit.\"EARAiv.ear\".weld.weldClassIntrospector is missing [jboss.deployment.unit.\"EARAiv.ear\".WeldStartService]",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".batch.artifact.factory is missing [jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".beanmanager]",
+        "jboss.deployment.unit.\"EARAiv.ear\".WeldStartService is missing [jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".jndiDependencyService]",
+        "jboss.deployment.unit.\"EARAiv.ear\".deploymentCompleteService is missing [jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".deploymentCompleteService, jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".deploymentCompleteService]",
+        "jboss.deployment.unit.\"EARAiv.ear\".CdiValidatorFactoryService is missing [jboss.deployment.unit.\"EARAiv.ear\".WeldStartService]",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.TreningiBean.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"EARAiv.ear\".WeldStartService]",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.TreningiBean.WeldInstantiator is missing [jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.TreningiBean.WeldInterceptorBindingsService, jboss.deployment.unit.\"EARAiv.ear\".WeldStartService]",
+        "jboss.deployment.unit.\"EARAiv.ear\".WeldEndInitService is missing [jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.ClanBean.START, jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.TreningiBean.START, jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.Zrnce.START, jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".component.\"javax.faces.webapp.FacetTag\".START, jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".component.\"javax.servlet.jsp.jstl.tlv.ScriptFreeTLV\".START, jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".component.\"managed-bean.PrvaNaloga\".START, jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".component.\"managed-bean.si.feri.aiv.jsf.DemoBean\".START, jboss.deployment.unit.\"EARAiv.ear\".WeldStartService, jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".component.\"si.feri.aiv.ClanSoap.ClanSoap\".START, jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".component.\"managed-bean.org.primefaces.util.AutoUpdateComponentPhaseListener\".START, jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".component.\"javax.faces.webapp.FacesServlet\".START, jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".component.\"managed-bean.org.primefaces.application.resource.DynamicResourcesPhaseListener\".START, jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".component.\"com.sun.faces.config.ConfigureListener\".START, jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".component.\"managed-bean.org.primefaces.component.autoupdate.AutoUpdatePhaseListener\".START, jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".component.\"javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV\".START]",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.Zrnce.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"EARAiv.ear\".WeldStartService]",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".CdiValidatorFactoryService is missing [jboss.deployment.unit.\"EARAiv.ear\".WeldStartService]",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.Zrnce.WeldInstantiator is missing [jboss.deployment.unit.\"EARAiv.ear\".WeldStartService, jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.Zrnce.WeldInterceptorBindingsService]",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.TreningiBean.START is missing [jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.TreningiBean.WeldInstantiator]",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".moduleDeploymentRuntimeInformationStart is missing [jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.Zrnce.START, jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.TreningiBean.START, jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.ClanBean.START]",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.ClanBean.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"EARAiv.ear\".WeldStartService]",
+        "jboss.deployment.unit.\"EARAiv.ear\".ee.ComponentRegistry is missing [jboss.deployment.unit.\"EARAiv.ear\".weld.weldClassIntrospector]",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".CLEANUP is missing [jboss.deployment.unit.\"EARAiv.ear\".CLEANUP]",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".batch.job-operator is missing [jboss.deployment.subunit.\"EARAiv.ear\".\"ArhitektureNaloge.war\".batch.environment]",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.ClanBean.WeldInstantiator is missing [jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.ClanBean.WeldInterceptorBindingsService, jboss.deployment.unit.\"EARAiv.ear\".WeldStartService]",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.ClanBean.START is missing [jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.ClanBean.WeldInstantiator]",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".weld.weldClassIntrospector is missing [jboss.deployment.unit.\"EARAiv.ear\".WeldStartService]",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.Zrnce.START is missing [jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".component.Zrnce.WeldInstantiator]",
+        "jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".ee.ComponentRegistry is missing [jboss.deployment.subunit.\"EARAiv.ear\".\"EJBProjekt.jar\".weld.weldClassIntrospector]"
+    ]
+}
+2018-04-19 11:07:45,141 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "EARAiv.ear" (runtime-name : "EARAiv.ear")
+2018-04-19 11:07:45,150 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".batch.artifact.factory (unavailable) dependents: [service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".batch.environment] 
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".batch.environment (unavailable) dependents: [service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".batch.job-operator] 
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".beanmanager (missing) dependents: [service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".batch.artifact.factory] 
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".component."com.sun.faces.config.ConfigureListener".START (missing) dependents: [service jboss.deployment.unit."EARAiv.ear".WeldEndInitService] 
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".component."javax.faces.webapp.FacesServlet".START (missing) dependents: [service jboss.deployment.unit."EARAiv.ear".WeldEndInitService] 
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".component."javax.faces.webapp.FacetTag".START (missing) dependents: [service jboss.deployment.unit."EARAiv.ear".WeldEndInitService] 
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (missing) dependents: [service jboss.deployment.unit."EARAiv.ear".WeldEndInitService] 
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (missing) dependents: [service jboss.deployment.unit."EARAiv.ear".WeldEndInitService] 
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".component."managed-bean.PrvaNaloga".START (missing) dependents: [service jboss.deployment.unit."EARAiv.ear".WeldEndInitService] 
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".component."managed-bean.org.primefaces.application.resource.DynamicResourcesPhaseListener".START (missing) dependents: [service jboss.deployment.unit."EARAiv.ear".WeldEndInitService] 
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".component."managed-bean.org.primefaces.component.autoupdate.AutoUpdatePhaseListener".START (missing) dependents: [service jboss.deployment.unit."EARAiv.ear".WeldEndInitService] 
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".component."managed-bean.org.primefaces.util.AutoUpdateComponentPhaseListener".START (missing) dependents: [service jboss.deployment.unit."EARAiv.ear".WeldEndInitService] 
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".component."managed-bean.si.feri.aiv.jsf.DemoBean".START (missing) dependents: [service jboss.deployment.unit."EARAiv.ear".WeldEndInitService] 
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".component."si.feri.aiv.ClanSoap.ClanSoap".START (missing) dependents: [service jboss.deployment.unit."EARAiv.ear".WeldEndInitService] 
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".deploymentCompleteService (missing) dependents: [service jboss.deployment.unit."EARAiv.ear".deploymentCompleteService] 
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".jndiDependencyService (missing) dependents: [service jboss.deployment.unit."EARAiv.ear".WeldStartService] 
+      service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".component.ClanBean.START (unavailable) dependents: [service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".deploymentCompleteService, service jboss.deployment.unit."EARAiv.ear".WeldEndInitService, service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".component.ClanBean.WeldInstantiator (unavailable) dependents: [service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".component.ClanBean.START] 
+      service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".component.ClanBean.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".component.ClanBean.WeldInstantiator] 
+      service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".component.TreningiBean.START (unavailable) dependents: [service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".deploymentCompleteService, service jboss.deployment.unit."EARAiv.ear".WeldEndInitService, service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".component.TreningiBean.WeldInstantiator (unavailable) dependents: [service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".component.TreningiBean.START] 
+      service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".component.TreningiBean.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".component.TreningiBean.WeldInstantiator] 
+      service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".component.Zrnce.START (unavailable) dependents: [service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".deploymentCompleteService, service jboss.deployment.unit."EARAiv.ear".WeldEndInitService, service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".component.Zrnce.WeldInstantiator (unavailable) dependents: [service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".component.Zrnce.START] 
+      service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".component.Zrnce.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".component.Zrnce.WeldInstantiator] 
+      service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".deploymentCompleteService (unavailable) dependents: [service jboss.deployment.unit."EARAiv.ear".deploymentCompleteService] 
+      service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".weld.weldClassIntrospector (unavailable) dependents: [service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".ee.ComponentRegistry] 
+      service jboss.deployment.unit."EARAiv.ear".CLEANUP (unavailable) dependents: [service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".CLEANUP] 
+      service jboss.deployment.unit."EARAiv.ear".WeldStartService (unavailable) dependents: [service jboss.deployment.unit."EARAiv.ear".weld.weldClassIntrospector, service jboss.deployment.unit."EARAiv.ear".WeldEndInitService, service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".weld.weldClassIntrospector, service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".component.Zrnce.WeldInterceptorBindingsService, WFLYCTL0208: ... and 8 more ] 
+      service jboss.deployment.unit."EARAiv.ear".weld.weldClassIntrospector (unavailable) dependents: [service jboss.deployment.unit."EARAiv.ear".ee.ComponentRegistry] 
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".INSTALL: WFLYSRV0153: Failed to process phase INSTALL of subdeployment "ArhitektureNaloge.war" of deployment "EARAiv.ear"
+
+2018-04-19 11:10:00,996 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 72) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-19 11:10:00,998 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (ServerService Thread Pool -- 72) HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-04-19 11:10:01,635 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 72) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-19 11:10:01,673 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0208: Stopped subdeployment (runtime-name: EJBProjekt.jar) in 684ms
+2018-04-19 11:10:01,683 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0208: Stopped subdeployment (runtime-name: ArhitektureNaloge.war) in 694ms
+2018-04-19 11:10:01,687 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment EARAiv.ear (runtime-name: EARAiv.ear) in 699ms
+2018-04-19 11:10:01,689 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "EARAiv.ear" (runtime-name: "EARAiv.ear")
+2018-04-19 11:10:01,735 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "EJBProjekt.jar")
+2018-04-19 11:10:01,736 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0207: Starting subdeployment (runtime-name: "ArhitektureNaloge.war")
+2018-04-19 11:10:02,572 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for aivTreningi
+2018-04-19 11:10:02,839 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 72) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-19 11:10:02,840 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 72) HHH000204: Processing PersistenceUnitInfo [
+	name: aivTreningi
+	...]
+2018-04-19 11:10:02,966 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment EARAiv.ear
+2018-04-19 11:10:03,119 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment EJBProjekt.jar
+2018-04-19 11:10:03,124 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'Zrnce' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:app/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:module/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:jboss/exported/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:global/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:app/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:module/Zrnce!si.feri.arhitekture.ZrnceLocal
+
+2018-04-19 11:10:03,125 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ClanBean' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/ClanBean!si.feri.aiv.ejb.meritve.ClanDao
+	java:app/EJBProjekt/ClanBean!si.feri.aiv.ejb.meritve.ClanDao
+	java:module/ClanBean!si.feri.aiv.ejb.meritve.ClanDao
+	java:global/EARAiv/EJBProjekt/ClanBean
+	java:app/EJBProjekt/ClanBean
+	java:module/ClanBean
+
+2018-04-19 11:10:03,125 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'TreningiBean' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:app/EJBProjekt/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:module/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:global/EARAiv/EJBProjekt/TreningiBean
+	java:app/EJBProjekt/TreningiBean
+	java:module/TreningiBean
+
+2018-04-19 11:10:03,159 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment ArhitektureNaloge.war
+2018-04-19 11:10:03,482 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 72) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-19 11:10:03,485 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 72) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-19 11:10:03,502 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 72) Envers integration enabled? : true
+2018-04-19 11:10:04,755 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-3) JBWS024061: Adding service endpoint metadata: id=si.feri.aiv.ClanSoap.ClanSoap
+ address=http://localhost:8080/ArhitektureNaloge/ClanSoap
+ implementor=si.feri.aiv.ClanSoap.ClanSoap
+ serviceName={http://ClanSoap.aiv.feri.si/}ClanSoapService
+ portName={http://ClanSoap.aiv.feri.si/}ClanSoapPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2018-04-19 11:10:05,372 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 72) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1508cea1'
+2018-04-19 11:10:07,755 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-3) Creating Service {http://ClanSoap.aiv.feri.si/}ClanSoapService from class si.feri.aiv.ClanSoap.ClanSoap
+2018-04-19 11:10:08,918 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-3) Setting the server's publish address to be http://localhost:8080/ArhitektureNaloge/ClanSoap
+2018-04-19 11:10:09,187 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-3) JBWS024074: WSDL published to: file:/C:/Users/Administrator/Desktop/AISV/wildfly-12.0.0.Final/standalone/data/wsdl/EARAiv.ear/ArhitektureNaloge.war/ClanSoapService.wsdl
+2018-04-19 11:10:09,316 INFO  [org.jboss.as.webservices] (MSC service thread 1-1) WFLYWS0003: Starting service jboss.ws.endpoint."EARAiv.ear"."ArhitektureNaloge.war"."si.feri.aiv.ClanSoap.ClanSoap"
+2018-04-19 11:10:09,399 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-3) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2018-04-19 11:10:09,403 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-3) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.jberet.creation.BatchBeanProducer is deprecated from CDI 1.1!
+2018-04-19 11:10:09,413 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-3) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.hibernate.validator.internal.cdi.interceptor.ValidationInterceptor is deprecated from CDI 1.1!
+2018-04-19 11:10:09,851 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 72) Initializing Mojarra 2.2.13.SP5  for context '/ArhitektureNaloge'
+2018-04-19 11:10:11,544 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 72) Running on PrimeFaces 6.2
+2018-04-19 11:10:11,554 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 72) WFLYUT0021: Registered web context: '/ArhitektureNaloge' for server 'default-server'
+2018-04-19 11:10:11,674 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "EARAiv.ear" with deployment "EARAiv.ear"
+2018-04-19 11:10:11,675 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0183: Service status report
+WFLYCTL0185:    Newly corrected services:
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".batch.artifact.factory (new available)
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".batch.environment (new available)
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".beanmanager (new available)
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".component."com.sun.faces.config.ConfigureListener".START (new available)
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".component."javax.faces.webapp.FacesServlet".START (new available)
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".component."javax.faces.webapp.FacetTag".START (new available)
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (new available)
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (new available)
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".component."managed-bean.PrvaNaloga".START (new available)
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".component."managed-bean.org.primefaces.application.resource.DynamicResourcesPhaseListener".START (new available)
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".component."managed-bean.org.primefaces.component.autoupdate.AutoUpdatePhaseListener".START (new available)
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".component."managed-bean.org.primefaces.util.AutoUpdateComponentPhaseListener".START (new available)
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".component."managed-bean.si.feri.aiv.jsf.DemoBean".START (new available)
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".component."si.feri.aiv.ClanSoap.ClanSoap".START (new available)
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".deploymentCompleteService (new available)
+      service jboss.deployment.subunit."EARAiv.ear"."ArhitektureNaloge.war".jndiDependencyService (new available)
+      service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".component.ClanBean.START (new available)
+      service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".component.ClanBean.WeldInstantiator (new available)
+      service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".component.ClanBean.WeldInterceptorBindingsService (new available)
+      service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".component.TreningiBean.START (new available)
+      service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".component.TreningiBean.WeldInstantiator (new available)
+      service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".component.TreningiBean.WeldInterceptorBindingsService (new available)
+      service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".component.Zrnce.START (new available)
+      service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".component.Zrnce.WeldInstantiator (new available)
+      service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".component.Zrnce.WeldInterceptorBindingsService (new available)
+      service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".deploymentCompleteService (new available)
+      service jboss.deployment.subunit."EARAiv.ear"."EJBProjekt.jar".weld.weldClassIntrospector (new available)
+      service jboss.deployment.unit."EARAiv.ear".CLEANUP (new available)
+      service jboss.deployment.unit."EARAiv.ear".WeldStartService (new available)
+      service jboss.deployment.unit."EARAiv.ear".weld.weldClassIntrospector (new available)
+
+2018-04-19 12:05:02,299 ERROR [stderr] (default task-1) Thu Apr 19 12:05:02 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2018-04-19 12:05:03,346 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-1) HHH000397: Using ASTQueryTranslatorFactory

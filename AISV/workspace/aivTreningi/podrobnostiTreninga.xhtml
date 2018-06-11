@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html
+xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+	<ui:composition template="templateTrening.xhtml">
+	   <ui:define name="title"> Podrobnosti treninga </ui:define>
+	   <ui:define name="content">
+<f:view>
+				<h:form>
+                    <h:outputText value="Ispis vseh osebnih podatkov"/>
+					<table border="0">
+						<tr>
+							<td>Naziv:</td>
+							<td><h:outputText value="#{zrno.izbraniTrening.naziv}"/></td>
+						</tr>
+						<tr>
+							<td>Del telesa:</td>
+							<td><h:outputText value="#{zrno.izbraniTrening.delTelesa}"/></td>
+						</tr>
+						<tr>
+							<td>Naprava:</td>
+							<td><h:outputText value="#{zrno.izbraniTrening.naprava}"/></td>
+						</tr>
+					<tr>
+							<td>Opis:</td>
+							<td><h:outputText value="#{zrno.izbraniTrening.opis}"/></td>
+						</tr>
+						<tr>
+							<td>Slika:</td>
+							<td><img src="#{zrno.izbraniTrening.slika}" alt="slika" width="440" height="345"></td>
+						</tr>
+						<tr>
+							<td>Video:</td>
+							<td><iframe width="420" height="345" src="#{zrno.izbraniTrening.video}">
+</iframe></td>
+						</tr>
+					</table>
+					 
+				</h:form>
+			</f:view>
+			</ui:define>
+	</ui:composition>
+
+</html>

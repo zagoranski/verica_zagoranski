@@ -1,0 +1,1106 @@
+2018-03-12 11:36:45,386 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2018-03-12 11:36:46,233 INFO  [org.jboss.msc] (main) JBoss MSC version 1.3.2.Final
+2018-03-12 11:36:46,259 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.1.Final
+2018-03-12 11:36:46,606 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) starting
+2018-03-12 11:36:46,610 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1250
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\jboss-modules.jar;C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_121\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_121
+	java.io.tmpdir = C:\Users\ADMINI~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_121-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final
+	jboss.host.name = desktop-9mmtd6a
+	jboss.modules.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-9mmtd6a
+	jboss.qualified.host.name = desktop-9mmtd6a
+	jboss.server.base.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\log
+	jboss.server.name = desktop-9mmtd6a
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\configuration\logging.properties
+	module.path = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 11
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_121\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1250
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = HR
+	user.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\bin
+	user.home = C:\Users\Administrator
+	user.language = hr
+	user.name = Administrator
+	user.script = 
+	user.timezone = Europe/Belgrade
+	user.variant = 
+2018-03-12 11:36:46,650 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=JBossTools: WildFly 11 -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1250 
+2018-03-12 11:36:51,787 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-03-12 11:36:51,941 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 28) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-03-12 11:36:51,973 INFO  [org.wildfly.security] (ServerService Thread Pool -- 7) ELY00001: WildFly Elytron version 1.2.2.Final
+2018-03-12 11:36:52,131 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ArhitektureNaloge.war in deployment directory. To trigger deployment create a file called ArhitektureNaloge.war.dodeploy
+2018-03-12 11:36:52,514 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-03-12 11:36:52,670 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.6.2.Final
+2018-03-12 11:36:52,810 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.6.2.Final
+2018-03-12 11:36:53,251 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-03-12 11:36:53,276 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2018-03-12 11:36:53,318 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy version 3.5.0.Final
+2018-03-12 11:36:53,467 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Activating WebServices Extension
+2018-03-12 11:36:53,511 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Activating Naming Subsystem
+2018-03-12 11:36:53,569 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Activating Security Subsystem
+2018-03-12 11:36:53,656 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-03-12 11:36:53,746 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2018-03-12 11:36:54,184 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.7.Final)
+2018-03-12 11:36:54,639 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-03-12 11:36:54,888 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-03-12 11:36:55,189 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2018-03-12 11:36:55,800 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 2.0.0.Final starting
+2018-03-12 11:36:56,065 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = mysql
+2018-03-12 11:36:56,068 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-03-12 11:36:56,600 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2018-03-12 11:36:57,094 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-03-12 11:36:58,853 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.5.Final
+2018-03-12 11:37:00,469 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Creating file handler for path 'C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-03-12 11:37:00,667 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0493: EJB subsystem suspension complete
+2018-03-12 11:37:00,873 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-03-12 11:37:00,871 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-03-12 11:37:01,427 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2018-03-12 11:37:01,435 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2018-03-12 11:37:01,808 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/aiv123]
+2018-03-12 11:37:01,810 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-03-12 11:37:02,661 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-03-12 11:37:05,818 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2018-03-12 11:37:05,958 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-4) WFLYDM0111: Keystore C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-03-12 11:37:06,416 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\deployments
+2018-03-12 11:37:06,564 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 11:37:07,036 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-03-12 11:37:09,581 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBossWS 5.2.0.Final (Apache CXF 3.2.2) 
+2018-03-12 11:37:13,861 WARN  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0013: Deployment ArhitektureNaloge.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2018-03-12 11:37:15,438 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-4) ISPN000128: Infinispan version: Infinispan 'Bastille' 9.1.6.Final
+2018-03-12 11:37:16,135 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-03-12 11:37:17,473 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 71) Initializing Mojarra 2.2.13.SP5  for context '/ArhitektureNaloge'
+2018-03-12 11:37:20,412 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 71) Running on PrimeFaces 6.2
+2018-03-12 11:37:20,845 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 71) WFLYUT0021: Registered web context: '/ArhitektureNaloge' for server 'default-server'
+2018-03-12 11:37:20,880 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "ArhitektureNaloge.war" (runtime-name : "ArhitektureNaloge.war")
+2018-03-12 11:37:21,219 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2018-03-12 11:37:21,225 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-03-12 11:37:21,226 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-03-12 11:37:21,227 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) started in 36807ms - Started 419 of 611 services (315 services are lazy, passive or on-demand)
+2018-03-12 11:38:26,711 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 22) WFLYUT0022: Unregistered web context: '/ArhitektureNaloge' from server 'default-server'
+2018-03-12 11:38:27,236 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment ArhitektureNaloge.war (runtime-name: ArhitektureNaloge.war) in 541ms
+2018-03-12 11:38:27,572 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 11:38:32,636 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ArhitektureNaloge.war in deployment directory. To trigger deployment create a file called ArhitektureNaloge.war.dodeploy
+2018-03-12 11:38:32,669 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 11:38:35,358 WARN  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0013: Deployment ArhitektureNaloge.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2018-03-12 11:38:35,468 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 77) Initializing Mojarra 2.2.13.SP5  for context '/ArhitektureNaloge'
+2018-03-12 11:38:37,140 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 77) Running on PrimeFaces 6.2
+2018-03-12 11:38:37,143 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0021: Registered web context: '/ArhitektureNaloge' for server 'default-server'
+2018-03-12 11:38:37,342 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "ArhitektureNaloge.war" (runtime-name : "ArhitektureNaloge.war")
+2018-03-12 11:38:53,013 INFO  [org.hibernate.validator.internal.util.Version] (default task-1) HV000001: Hibernate Validator 5.3.6.Final
+2018-03-12 11:38:55,033 ERROR [stderr] (default task-1) Mon Mar 12 11:38:55 CET 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2018-03-12 11:38:55,407 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (default task-1) IJ000407: No lazy enlistment available for aiv123
+2018-03-12 11:39:00,553 INFO  [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-1) WARNING: FacesMessage(s) have been enqueued, but may not have been displayed.
+sourceId=null[severity=(ERROR 2), summary=(One or more resources have the target of 'head', but no 'head' component has been defined within the view.), detail=(One or more resources have the target of 'head', but no 'head' component has been defined within the view.)]
+2018-03-12 11:44:19,360 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0022: Unregistered web context: '/ArhitektureNaloge' from server 'default-server'
+2018-03-12 11:44:20,008 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment ArhitektureNaloge.war (runtime-name: ArhitektureNaloge.war) in 651ms
+2018-03-12 11:44:20,013 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 11:44:20,381 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-1) MSC000001: Failed to start service jboss.deployment.unit."ArhitektureNaloge.war".POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.unit."ArhitektureNaloge.war".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment "ArhitektureNaloge.war"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:151)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1714)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1693)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1540)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NoClassDefFoundError: org/primefaces/model/chart/ChartSeries
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Unknown Source)
+	at java.lang.Class.getConstructor0(Unknown Source)
+	at java.lang.Class.getConstructor(Unknown Source)
+	at org.jboss.as.jsf.deployment.JSFComponentProcessor.deploy(JSFComponentProcessor.java:103)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:144)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.primefaces.model.chart.ChartSeries from [Module "deployment.ArhitektureNaloge.war" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:199)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:412)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:400)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	... 14 more
+
+2018-03-12 11:44:20,410 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 1) WFLYCTL0013: Operation ("full-replace-deployment") failed - address: ([]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.deployment.unit.\"ArhitektureNaloge.war\".POST_MODULE" => "WFLYSRV0153: Failed to process phase POST_MODULE of deployment \"ArhitektureNaloge.war\"
+    Caused by: java.lang.NoClassDefFoundError: org/primefaces/model/chart/ChartSeries
+    Caused by: java.lang.ClassNotFoundException: org.primefaces.model.chart.ChartSeries from [Module \"deployment.ArhitektureNaloge.war\" from Service Module Loader]"}}
+2018-03-12 11:44:20,680 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "ArhitektureNaloge.war" with deployment "ArhitektureNaloge.war"
+2018-03-12 11:44:20,682 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.unit."ArhitektureNaloge.war".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment "ArhitektureNaloge.war"
+
+2018-03-12 11:44:25,733 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment ArhitektureNaloge.war (runtime-name: ArhitektureNaloge.war) in 10ms
+2018-03-12 11:44:25,738 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 11:44:26,011 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-4) MSC000001: Failed to start service jboss.deployment.unit."ArhitektureNaloge.war".POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.unit."ArhitektureNaloge.war".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment "ArhitektureNaloge.war"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:151)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1714)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1693)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1540)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NoClassDefFoundError: org/primefaces/model/chart/ChartSeries
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Unknown Source)
+	at java.lang.Class.getConstructor0(Unknown Source)
+	at java.lang.Class.getConstructor(Unknown Source)
+	at org.jboss.as.jsf.deployment.JSFComponentProcessor.deploy(JSFComponentProcessor.java:103)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:144)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.primefaces.model.chart.ChartSeries from [Module "deployment.ArhitektureNaloge.war" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:199)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:412)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:400)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	... 14 more
+
+2018-03-12 11:44:26,018 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 1) WFLYCTL0013: Operation ("full-replace-deployment") failed - address: ([]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.deployment.unit.\"ArhitektureNaloge.war\".POST_MODULE" => "WFLYSRV0153: Failed to process phase POST_MODULE of deployment \"ArhitektureNaloge.war\"
+    Caused by: java.lang.NoClassDefFoundError: org/primefaces/model/chart/ChartSeries
+    Caused by: java.lang.ClassNotFoundException: org.primefaces.model.chart.ChartSeries from [Module \"deployment.ArhitektureNaloge.war\" from Service Module Loader]"}}
+2018-03-12 11:44:26,176 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "ArhitektureNaloge.war" with deployment "ArhitektureNaloge.war"
+2018-03-12 11:44:26,176 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.unit."ArhitektureNaloge.war".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment "ArhitektureNaloge.war"
+
+2018-03-12 11:45:11,444 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment ArhitektureNaloge.war (runtime-name: ArhitektureNaloge.war) in 6ms
+2018-03-12 11:45:11,447 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 11:45:13,013 WARN  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0013: Deployment ArhitektureNaloge.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2018-03-12 11:45:13,155 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 85) Initializing Mojarra 2.2.13.SP5  for context '/ArhitektureNaloge'
+2018-03-12 11:45:14,615 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 85) Running on PrimeFaces 6.2
+2018-03-12 11:45:14,620 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 85) WFLYUT0021: Registered web context: '/ArhitektureNaloge' for server 'default-server'
+2018-03-12 11:45:14,691 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "ArhitektureNaloge.war" with deployment "ArhitektureNaloge.war"
+2018-03-12 11:45:24,758 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 85) WFLYUT0022: Unregistered web context: '/ArhitektureNaloge' from server 'default-server'
+2018-03-12 11:45:25,150 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment ArhitektureNaloge.war (runtime-name: ArhitektureNaloge.war) in 396ms
+2018-03-12 11:45:25,214 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 11:45:30,291 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ArhitektureNaloge.war in deployment directory. To trigger deployment create a file called ArhitektureNaloge.war.dodeploy
+2018-03-12 11:45:30,311 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 11:45:31,444 WARN  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0013: Deployment ArhitektureNaloge.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2018-03-12 11:45:31,537 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 85) Initializing Mojarra 2.2.13.SP5  for context '/ArhitektureNaloge'
+2018-03-12 11:45:32,767 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 85) Running on PrimeFaces 6.2
+2018-03-12 11:45:32,771 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 85) WFLYUT0021: Registered web context: '/ArhitektureNaloge' for server 'default-server'
+2018-03-12 11:45:32,828 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "ArhitektureNaloge.war" (runtime-name : "ArhitektureNaloge.war")
+2018-03-12 11:46:07,085 INFO  [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-1) WARNING: FacesMessage(s) have been enqueued, but may not have been displayed.
+sourceId=null[severity=(ERROR 2), summary=(One or more resources have the target of 'head', but no 'head' component has been defined within the view.), detail=(One or more resources have the target of 'head', but no 'head' component has been defined within the view.)]
+2018-03-12 12:15:03,938 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 85) WFLYUT0022: Unregistered web context: '/ArhitektureNaloge' from server 'default-server'
+2018-03-12 12:15:04,457 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment ArhitektureNaloge.war (runtime-name: ArhitektureNaloge.war) in 520ms
+2018-03-12 12:15:04,529 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 12:15:09,558 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ArhitektureNaloge.war in deployment directory. To trigger deployment create a file called ArhitektureNaloge.war.dodeploy
+2018-03-12 12:15:09,583 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 12:15:11,416 WARN  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0013: Deployment ArhitektureNaloge.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2018-03-12 12:15:11,524 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 99) Initializing Mojarra 2.2.13.SP5  for context '/ArhitektureNaloge'
+2018-03-12 12:15:13,156 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 99) Running on PrimeFaces 6.2
+2018-03-12 12:15:13,158 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 99) WFLYUT0021: Registered web context: '/ArhitektureNaloge' for server 'default-server'
+2018-03-12 12:15:13,234 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "ArhitektureNaloge.war" (runtime-name : "ArhitektureNaloge.war")
+2018-03-12 12:15:37,513 SEVERE [javax.enterprise.resource.webcontainer.jsf.application] (default task-1) Error Rendering View[/uporabnikPodrobnosti.xhtml]: java.lang.NullPointerException
+	at org.primefaces.component.chart.renderer.LineRenderer.encodeData(LineRenderer.java:35)
+	at org.primefaces.component.chart.renderer.BasePlotRenderer.render(BasePlotRenderer.java:29)
+	at org.primefaces.component.chart.ChartRenderer.encodeScript(ChartRenderer.java:95)
+	at org.primefaces.component.chart.ChartRenderer.encodeEnd(ChartRenderer.java:68)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+	at org.primefaces.renderkit.CoreRenderer.renderChild(CoreRenderer.java:91)
+	at org.primefaces.renderkit.CoreRenderer.renderChildren(CoreRenderer.java:73)
+	at org.primefaces.component.panel.PanelRenderer.encodeContent(PanelRenderer.java:210)
+	at org.primefaces.component.panel.PanelRenderer.encodeMarkup(PanelRenderer.java:124)
+	at org.primefaces.component.panel.PanelRenderer.encodeEnd(PanelRenderer.java:58)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:458)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:134)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:67)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-03-12 12:15:37,521 ERROR [io.undertow.request] (default task-1) UT005023: Exception handling request to /ArhitektureNaloge/faces/uporabnikOkno.xhtml: javax.servlet.ServletException
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:67)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at org.primefaces.component.chart.renderer.LineRenderer.encodeData(LineRenderer.java:35)
+	at org.primefaces.component.chart.renderer.BasePlotRenderer.render(BasePlotRenderer.java:29)
+	at org.primefaces.component.chart.ChartRenderer.encodeScript(ChartRenderer.java:95)
+	at org.primefaces.component.chart.ChartRenderer.encodeEnd(ChartRenderer.java:68)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+	at org.primefaces.renderkit.CoreRenderer.renderChild(CoreRenderer.java:91)
+	at org.primefaces.renderkit.CoreRenderer.renderChildren(CoreRenderer.java:73)
+	at org.primefaces.component.panel.PanelRenderer.encodeContent(PanelRenderer.java:210)
+	at org.primefaces.component.panel.PanelRenderer.encodeMarkup(PanelRenderer.java:124)
+	at org.primefaces.component.panel.PanelRenderer.encodeEnd(PanelRenderer.java:58)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:458)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:134)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+	... 41 more
+
+2018-03-12 12:15:58,481 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 102) WFLYUT0022: Unregistered web context: '/ArhitektureNaloge' from server 'default-server'
+2018-03-12 12:15:58,890 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment ArhitektureNaloge.war (runtime-name: ArhitektureNaloge.war) in 412ms
+2018-03-12 12:15:58,951 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 12:16:03,988 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ArhitektureNaloge.war in deployment directory. To trigger deployment create a file called ArhitektureNaloge.war.dodeploy
+2018-03-12 12:16:04,004 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 12:16:05,541 WARN  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0013: Deployment ArhitektureNaloge.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2018-03-12 12:16:05,684 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 105) Initializing Mojarra 2.2.13.SP5  for context '/ArhitektureNaloge'
+2018-03-12 12:16:07,271 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 105) Running on PrimeFaces 6.2
+2018-03-12 12:16:07,276 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 105) WFLYUT0021: Registered web context: '/ArhitektureNaloge' for server 'default-server'
+2018-03-12 12:16:07,377 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "ArhitektureNaloge.war" (runtime-name : "ArhitektureNaloge.war")
+2018-03-12 12:16:35,867 INFO  [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-1) WARNING: FacesMessage(s) have been enqueued, but may not have been displayed.
+sourceId=null[severity=(ERROR 2), summary=(One or more resources have the target of 'head', but no 'head' component has been defined within the view.), detail=(One or more resources have the target of 'head', but no 'head' component has been defined within the view.)]
+2018-03-12 12:18:47,744 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 105) WFLYUT0022: Unregistered web context: '/ArhitektureNaloge' from server 'default-server'
+2018-03-12 12:18:48,069 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment ArhitektureNaloge.war (runtime-name: ArhitektureNaloge.war) in 326ms
+2018-03-12 12:18:48,134 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 12:18:53,191 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found ArhitektureNaloge.war in deployment directory. To trigger deployment create a file called ArhitektureNaloge.war.dodeploy
+2018-03-12 12:18:53,216 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 12:18:54,211 WARN  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0013: Deployment ArhitektureNaloge.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2018-03-12 12:18:54,321 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 116) Initializing Mojarra 2.2.13.SP5  for context '/ArhitektureNaloge'
+2018-03-12 12:18:55,474 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 116) Running on PrimeFaces 6.2
+2018-03-12 12:18:55,476 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 116) WFLYUT0021: Registered web context: '/ArhitektureNaloge' for server 'default-server'
+2018-03-12 12:18:55,530 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "ArhitektureNaloge.war" (runtime-name : "ArhitektureNaloge.war")
+2018-03-12 12:19:16,135 INFO  [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-1) WARNING: FacesMessage(s) have been enqueued, but may not have been displayed.
+sourceId=null[severity=(ERROR 2), summary=(One or more resources have the target of 'head', but no 'head' component has been defined within the view.), detail=(One or more resources have the target of 'head', but no 'head' component has been defined within the view.)]
+2018-03-12 12:41:01,572 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 118) WFLYUT0022: Unregistered web context: '/ArhitektureNaloge' from server 'default-server'
+2018-03-12 12:41:01,912 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment ArhitektureNaloge.war (runtime-name: ArhitektureNaloge.war) in 355ms
+2018-03-12 12:41:01,990 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 12:41:07,062 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found ArhitektureNaloge.war in deployment directory. To trigger deployment create a file called ArhitektureNaloge.war.dodeploy
+2018-03-12 12:41:07,089 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 12:41:08,120 WARN  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0013: Deployment ArhitektureNaloge.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2018-03-12 12:41:08,210 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 125) Initializing Mojarra 2.2.13.SP5  for context '/ArhitektureNaloge'
+2018-03-12 12:41:09,416 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 125) Running on PrimeFaces 6.2
+2018-03-12 12:41:09,432 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 125) WFLYUT0021: Registered web context: '/ArhitektureNaloge' for server 'default-server'
+2018-03-12 12:41:09,481 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "ArhitektureNaloge.war" (runtime-name : "ArhitektureNaloge.war")
+2018-03-12 13:35:25,586 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2018-03-12 13:35:26,620 INFO  [org.jboss.msc] (main) JBoss MSC version 1.3.2.Final
+2018-03-12 13:35:26,647 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.1.Final
+2018-03-12 13:35:26,982 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) starting
+2018-03-12 13:35:26,987 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1250
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\jboss-modules.jar;C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_121\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_121
+	java.io.tmpdir = C:\Users\ADMINI~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_121-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final
+	jboss.host.name = desktop-9mmtd6a
+	jboss.modules.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-9mmtd6a
+	jboss.qualified.host.name = desktop-9mmtd6a
+	jboss.server.base.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\log
+	jboss.server.name = desktop-9mmtd6a
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\configuration\logging.properties
+	module.path = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 11
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_121\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1250
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = HR
+	user.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\bin
+	user.home = C:\Users\Administrator
+	user.language = hr
+	user.name = Administrator
+	user.script = 
+	user.timezone = Europe/Belgrade
+	user.variant = 
+2018-03-12 13:35:26,989 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=JBossTools: WildFly 11 -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1250 
+2018-03-12 13:35:32,968 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-03-12 13:35:33,047 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 9) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-03-12 13:35:33,137 INFO  [org.wildfly.security] (ServerService Thread Pool -- 11) ELY00001: WildFly Elytron version 1.2.2.Final
+2018-03-12 13:35:33,239 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ArhitektureNaloge.war in deployment directory. To trigger deployment create a file called ArhitektureNaloge.war.dodeploy
+2018-03-12 13:35:33,619 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-03-12 13:35:33,728 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.6.2.Final
+2018-03-12 13:35:33,787 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.6.2.Final
+2018-03-12 13:35:34,058 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Activating Naming Subsystem
+2018-03-12 13:35:34,116 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Activating Security Subsystem
+2018-03-12 13:35:34,133 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Activating WebServices Extension
+2018-03-12 13:35:34,084 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy version 3.5.0.Final
+2018-03-12 13:35:34,239 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-03-12 13:35:34,118 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2018-03-12 13:35:34,405 INFO  [org.jboss.as.security] (MSC service thread 1-7) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2018-03-12 13:35:34,495 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 2.0.0.Final starting
+2018-03-12 13:35:34,506 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-03-12 13:35:34,988 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.7.Final)
+2018-03-12 13:35:34,996 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2018-03-12 13:35:35,044 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-03-12 13:35:35,077 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-03-12 13:35:35,097 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = mysql
+2018-03-12 13:35:35,152 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2018-03-12 13:35:35,243 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-03-12 13:35:35,725 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Creating file handler for path 'C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-03-12 13:35:36,101 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-03-12 13:35:36,134 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-03-12 13:35:36,134 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-03-12 13:35:36,319 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.5.Final
+2018-03-12 13:35:36,415 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+2018-03-12 13:35:36,442 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2018-03-12 13:35:36,696 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2018-03-12 13:35:36,701 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0493: EJB subsystem suspension complete
+2018-03-12 13:35:36,813 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-6) WFLYDM0111: Keystore C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-03-12 13:35:36,821 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-03-12 13:35:36,842 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\deployments
+2018-03-12 13:35:36,941 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 13:35:37,185 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/aiv123]
+2018-03-12 13:35:37,185 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-03-12 13:35:39,518 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-03-12 13:35:39,989 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 5.2.0.Final (Apache CXF 3.2.2) 
+2018-03-12 13:35:42,715 WARN  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0013: Deployment ArhitektureNaloge.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2018-03-12 13:35:43,331 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-5) ISPN000128: Infinispan version: Infinispan 'Bastille' 9.1.6.Final
+2018-03-12 13:35:44,216 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-03-12 13:35:44,981 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 65) Initializing Mojarra 2.2.13.SP5  for context '/ArhitektureNaloge'
+2018-03-12 13:35:49,422 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 65) Running on PrimeFaces 6.2
+2018-03-12 13:35:49,613 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0021: Registered web context: '/ArhitektureNaloge' for server 'default-server'
+2018-03-12 13:35:49,705 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "ArhitektureNaloge.war" (runtime-name : "ArhitektureNaloge.war")
+2018-03-12 13:35:50,104 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2018-03-12 13:35:50,111 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-03-12 13:35:50,112 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-03-12 13:35:50,113 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) started in 25884ms - Started 419 of 611 services (315 services are lazy, passive or on-demand)
+2018-03-12 13:39:51,755 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 6) WFLYUT0022: Unregistered web context: '/ArhitektureNaloge' from server 'default-server'
+2018-03-12 13:39:52,570 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment ArhitektureNaloge.war (runtime-name: ArhitektureNaloge.war) in 823ms
+2018-03-12 13:39:52,898 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 13:39:57,922 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found ArhitektureNaloge.war in deployment directory. To trigger deployment create a file called ArhitektureNaloge.war.dodeploy
+2018-03-12 13:39:57,941 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 13:40:00,061 WARN  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0013: Deployment ArhitektureNaloge.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2018-03-12 13:40:00,148 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 73) Initializing Mojarra 2.2.13.SP5  for context '/ArhitektureNaloge'
+2018-03-12 13:40:01,722 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 73) Running on PrimeFaces 6.2
+2018-03-12 13:40:01,734 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0021: Registered web context: '/ArhitektureNaloge' for server 'default-server'
+2018-03-12 13:40:01,930 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "ArhitektureNaloge.war" (runtime-name : "ArhitektureNaloge.war")
+2018-03-12 13:40:18,402 INFO  [org.hibernate.validator.internal.util.Version] (default task-1) HV000001: Hibernate Validator 5.3.6.Final
+2018-03-12 13:40:20,617 ERROR [stderr] (default task-1) Mon Mar 12 13:40:20 CET 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2018-03-12 13:40:21,127 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (default task-1) IJ000407: No lazy enlistment available for aiv123
+2018-03-12 13:40:24,903 SEVERE [javax.enterprise.resource.webcontainer.jsf.application] (default task-1) Error Rendering View[/uporabnikPodrobnosti.xhtml]: javax.el.PropertyNotFoundException: /uporabnikPodrobnosti.xhtml @13,74 model="#{demo.barModel}": The class 'PrvaNaloga' does not have the property 'barModel'.
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:111)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+	at org.primefaces.component.chart.Chart.getModel(Chart.java:105)
+	at org.primefaces.component.chart.renderer.BarRenderer.encodeData(BarRenderer.java:34)
+	at org.primefaces.component.chart.renderer.BasePlotRenderer.render(BasePlotRenderer.java:29)
+	at org.primefaces.component.chart.ChartRenderer.encodeScript(ChartRenderer.java:95)
+	at org.primefaces.component.chart.ChartRenderer.encodeEnd(ChartRenderer.java:68)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+	at org.primefaces.renderkit.CoreRenderer.renderChild(CoreRenderer.java:91)
+	at org.primefaces.renderkit.CoreRenderer.renderChildren(CoreRenderer.java:73)
+	at org.primefaces.component.panel.PanelRenderer.encodeContent(PanelRenderer.java:210)
+	at org.primefaces.component.panel.PanelRenderer.encodeMarkup(PanelRenderer.java:124)
+	at org.primefaces.component.panel.PanelRenderer.encodeEnd(PanelRenderer.java:58)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:458)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:134)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:67)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.el.PropertyNotFoundException: The class 'PrvaNaloga' does not have the property 'barModel'.
+	at javax.el.BeanELResolver.getBeanProperty(BeanELResolver.java:568)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:229)
+	at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+	at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:139)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:203)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:226)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+	... 63 more
+
+2018-03-12 13:40:24,916 ERROR [io.undertow.request] (default task-1) UT005023: Exception handling request to /ArhitektureNaloge/faces/uporabnikOkno.xhtml;jsessionid=UJLhI5kIigdA7bpJZ97mASDiZSpzofaxyNyaisnx.desktop-9mmtd6a: javax.servlet.ServletException: /uporabnikPodrobnosti.xhtml @13,74 model="#{demo.barModel}": The class 'PrvaNaloga' does not have the property 'barModel'.
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:67)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.el.PropertyNotFoundException: /uporabnikPodrobnosti.xhtml @13,74 model="#{demo.barModel}": The class 'PrvaNaloga' does not have the property 'barModel'.
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:111)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+	at org.primefaces.component.chart.Chart.getModel(Chart.java:105)
+	at org.primefaces.component.chart.renderer.BarRenderer.encodeData(BarRenderer.java:34)
+	at org.primefaces.component.chart.renderer.BasePlotRenderer.render(BasePlotRenderer.java:29)
+	at org.primefaces.component.chart.ChartRenderer.encodeScript(ChartRenderer.java:95)
+	at org.primefaces.component.chart.ChartRenderer.encodeEnd(ChartRenderer.java:68)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+	at org.primefaces.renderkit.CoreRenderer.renderChild(CoreRenderer.java:91)
+	at org.primefaces.renderkit.CoreRenderer.renderChildren(CoreRenderer.java:73)
+	at org.primefaces.component.panel.PanelRenderer.encodeContent(PanelRenderer.java:210)
+	at org.primefaces.component.panel.PanelRenderer.encodeMarkup(PanelRenderer.java:124)
+	at org.primefaces.component.panel.PanelRenderer.encodeEnd(PanelRenderer.java:58)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:458)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:134)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+	... 41 more
+Caused by: javax.el.PropertyNotFoundException: The class 'PrvaNaloga' does not have the property 'barModel'.
+	at javax.el.BeanELResolver.getBeanProperty(BeanELResolver.java:568)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:229)
+	at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+	at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:139)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:203)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:226)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+	... 63 more
+
+2018-03-12 13:41:12,505 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0022: Unregistered web context: '/ArhitektureNaloge' from server 'default-server'
+2018-03-12 13:41:12,869 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment ArhitektureNaloge.war (runtime-name: ArhitektureNaloge.war) in 367ms
+2018-03-12 13:41:12,939 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 13:41:17,994 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ArhitektureNaloge.war in deployment directory. To trigger deployment create a file called ArhitektureNaloge.war.dodeploy
+2018-03-12 13:41:18,012 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 13:41:19,546 WARN  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0013: Deployment ArhitektureNaloge.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2018-03-12 13:41:19,694 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 79) Initializing Mojarra 2.2.13.SP5  for context '/ArhitektureNaloge'
+2018-03-12 13:41:21,173 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 79) Running on PrimeFaces 6.2
+2018-03-12 13:41:21,175 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 79) WFLYUT0021: Registered web context: '/ArhitektureNaloge' for server 'default-server'
+2018-03-12 13:41:21,243 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "ArhitektureNaloge.war" (runtime-name : "ArhitektureNaloge.war")
+2018-03-12 13:41:33,122 INFO  [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-1) WARNING: FacesMessage(s) have been enqueued, but may not have been displayed.
+sourceId=null[severity=(ERROR 2), summary=(One or more resources have the target of 'head', but no 'head' component has been defined within the view.), detail=(One or more resources have the target of 'head', but no 'head' component has been defined within the view.)]
+2018-03-12 13:42:21,595 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 81) WFLYUT0022: Unregistered web context: '/ArhitektureNaloge' from server 'default-server'
+2018-03-12 13:42:22,095 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment ArhitektureNaloge.war (runtime-name: ArhitektureNaloge.war) in 506ms
+2018-03-12 13:42:22,194 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 13:42:27,253 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ArhitektureNaloge.war in deployment directory. To trigger deployment create a file called ArhitektureNaloge.war.dodeploy
+2018-03-12 13:42:27,272 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 13:42:28,454 WARN  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0013: Deployment ArhitektureNaloge.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2018-03-12 13:42:28,551 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 86) Initializing Mojarra 2.2.13.SP5  for context '/ArhitektureNaloge'
+2018-03-12 13:42:29,805 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 86) Running on PrimeFaces 6.2
+2018-03-12 13:42:29,807 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 86) WFLYUT0021: Registered web context: '/ArhitektureNaloge' for server 'default-server'
+2018-03-12 13:42:29,861 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "ArhitektureNaloge.war" (runtime-name : "ArhitektureNaloge.war")
+2018-03-12 13:43:44,029 SEVERE [javax.enterprise.resource.webcontainer.jsf.application] (default task-1) Error Rendering View[/uporabnikPodrobnosti.xhtml]: javax.el.PropertyNotFoundException: /uporabnikPodrobnosti.xhtml @13,74 model="#{demo.barModel}": The class 'PrvaNaloga' does not have the property 'barModel'.
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:111)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+	at org.primefaces.component.chart.Chart.getModel(Chart.java:105)
+	at org.primefaces.component.chart.renderer.BarRenderer.encodeData(BarRenderer.java:34)
+	at org.primefaces.component.chart.renderer.BasePlotRenderer.render(BasePlotRenderer.java:29)
+	at org.primefaces.component.chart.ChartRenderer.encodeScript(ChartRenderer.java:95)
+	at org.primefaces.component.chart.ChartRenderer.encodeEnd(ChartRenderer.java:68)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+	at org.primefaces.renderkit.CoreRenderer.renderChild(CoreRenderer.java:91)
+	at org.primefaces.renderkit.CoreRenderer.renderChildren(CoreRenderer.java:73)
+	at org.primefaces.component.panel.PanelRenderer.encodeContent(PanelRenderer.java:210)
+	at org.primefaces.component.panel.PanelRenderer.encodeMarkup(PanelRenderer.java:124)
+	at org.primefaces.component.panel.PanelRenderer.encodeEnd(PanelRenderer.java:58)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:458)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:134)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:67)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.el.PropertyNotFoundException: The class 'PrvaNaloga' does not have the property 'barModel'.
+	at javax.el.BeanELResolver.getBeanProperty(BeanELResolver.java:568)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:229)
+	at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+	at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:139)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:203)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:226)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+	... 63 more
+
+2018-03-12 13:43:44,032 ERROR [io.undertow.request] (default task-1) UT005023: Exception handling request to /ArhitektureNaloge/faces/uporabnikOkno.xhtml;jsessionid=bqeH94haVrKMVmi42uzqp5eEqUA_nsnHrv9PrDMF.desktop-9mmtd6a: javax.servlet.ServletException: /uporabnikPodrobnosti.xhtml @13,74 model="#{demo.barModel}": The class 'PrvaNaloga' does not have the property 'barModel'.
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:67)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.el.PropertyNotFoundException: /uporabnikPodrobnosti.xhtml @13,74 model="#{demo.barModel}": The class 'PrvaNaloga' does not have the property 'barModel'.
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:111)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+	at org.primefaces.component.chart.Chart.getModel(Chart.java:105)
+	at org.primefaces.component.chart.renderer.BarRenderer.encodeData(BarRenderer.java:34)
+	at org.primefaces.component.chart.renderer.BasePlotRenderer.render(BasePlotRenderer.java:29)
+	at org.primefaces.component.chart.ChartRenderer.encodeScript(ChartRenderer.java:95)
+	at org.primefaces.component.chart.ChartRenderer.encodeEnd(ChartRenderer.java:68)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+	at org.primefaces.renderkit.CoreRenderer.renderChild(CoreRenderer.java:91)
+	at org.primefaces.renderkit.CoreRenderer.renderChildren(CoreRenderer.java:73)
+	at org.primefaces.component.panel.PanelRenderer.encodeContent(PanelRenderer.java:210)
+	at org.primefaces.component.panel.PanelRenderer.encodeMarkup(PanelRenderer.java:124)
+	at org.primefaces.component.panel.PanelRenderer.encodeEnd(PanelRenderer.java:58)
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:458)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:134)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+	... 41 more
+Caused by: javax.el.PropertyNotFoundException: The class 'PrvaNaloga' does not have the property 'barModel'.
+	at javax.el.BeanELResolver.getBeanProperty(BeanELResolver.java:568)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:229)
+	at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+	at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:139)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:203)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:226)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+	... 63 more
+
+2018-03-12 13:44:05,443 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 89) WFLYUT0022: Unregistered web context: '/ArhitektureNaloge' from server 'default-server'
+2018-03-12 13:44:05,843 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment ArhitektureNaloge.war (runtime-name: ArhitektureNaloge.war) in 403ms
+2018-03-12 13:44:05,895 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 13:44:10,948 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found ArhitektureNaloge.war in deployment directory. To trigger deployment create a file called ArhitektureNaloge.war.dodeploy
+2018-03-12 13:44:10,971 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 13:44:12,200 WARN  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0013: Deployment ArhitektureNaloge.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2018-03-12 13:44:12,312 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 92) Initializing Mojarra 2.2.13.SP5  for context '/ArhitektureNaloge'
+2018-03-12 13:44:13,782 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 92) Running on PrimeFaces 6.2
+2018-03-12 13:44:13,784 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 92) WFLYUT0021: Registered web context: '/ArhitektureNaloge' for server 'default-server'
+2018-03-12 13:44:13,869 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "ArhitektureNaloge.war" (runtime-name : "ArhitektureNaloge.war")
+2018-03-12 13:44:45,033 INFO  [javax.enterprise.resource.webcontainer.jsf.renderkit] (default task-1) WARNING: FacesMessage(s) have been enqueued, but may not have been displayed.
+sourceId=null[severity=(ERROR 2), summary=(One or more resources have the target of 'head', but no 'head' component has been defined within the view.), detail=(One or more resources have the target of 'head', but no 'head' component has been defined within the view.)]
+2018-03-12 22:43:09,941 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2018-03-12 22:43:13,673 INFO  [org.jboss.msc] (main) JBoss MSC version 1.3.2.Final
+2018-03-12 22:43:13,719 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.1.Final
+2018-03-12 22:43:14,541 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) starting
+2018-03-12 22:43:14,541 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1250
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\jboss-modules.jar;C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_121\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_121
+	java.io.tmpdir = C:\Users\ADMINI~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_121-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final
+	jboss.host.name = desktop-9mmtd6a
+	jboss.modules.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-9mmtd6a
+	jboss.qualified.host.name = desktop-9mmtd6a
+	jboss.server.base.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\log
+	jboss.server.name = desktop-9mmtd6a
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\configuration\logging.properties
+	module.path = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 11
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_121\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1250
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = HR
+	user.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\bin
+	user.home = C:\Users\Administrator
+	user.language = hr
+	user.name = Administrator
+	user.script = 
+	user.timezone = Europe/Belgrade
+	user.variant = 
+2018-03-12 22:43:14,541 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=JBossTools: WildFly 11 -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1250 
+2018-03-12 22:43:30,752 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-03-12 22:43:31,165 INFO  [org.wildfly.security] (ServerService Thread Pool -- 7) ELY00001: WildFly Elytron version 1.2.2.Final
+2018-03-12 22:43:31,430 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 4) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-03-12 22:43:31,587 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ArhitektureNaloge.war in deployment directory. To trigger deployment create a file called ArhitektureNaloge.war.dodeploy
+2018-03-12 22:43:31,805 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-03-12 22:43:31,929 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.6.2.Final
+2018-03-12 22:43:31,956 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.6.2.Final
+2018-03-12 22:43:32,377 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-03-12 22:43:32,388 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2018-03-12 22:43:32,429 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-03-12 22:43:32,441 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Activating Security Subsystem
+2018-03-12 22:43:32,475 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy version 3.5.0.Final
+2018-03-12 22:43:32,521 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Activating WebServices Extension
+2018-03-12 22:43:32,566 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Activating Naming Subsystem
+2018-03-12 22:43:32,739 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.7.Final)
+2018-03-12 22:43:32,879 INFO  [org.jboss.as.security] (MSC service thread 1-6) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2018-03-12 22:43:33,783 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-03-12 22:43:33,799 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = mysql
+2018-03-12 22:43:33,830 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2018-03-12 22:43:33,830 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-03-12 22:43:33,940 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 2.0.0.Final starting
+2018-03-12 22:43:34,067 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-03-12 22:43:34,448 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+2018-03-12 22:43:34,687 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-03-12 22:43:35,062 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.5.Final
+2018-03-12 22:43:36,225 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Creating file handler for path 'C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-03-12 22:43:36,939 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2018-03-12 22:43:36,954 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2018-03-12 22:43:37,338 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0493: EJB subsystem suspension complete
+2018-03-12 22:43:37,338 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-03-12 22:43:37,346 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/aiv123]
+2018-03-12 22:43:37,549 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-03-12 22:43:37,533 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-03-12 22:43:37,861 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-03-12 22:43:40,590 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2018-03-12 22:43:40,696 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-03-12 22:43:40,710 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\deployments
+2018-03-12 22:43:41,072 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 22:43:41,749 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-03-12 22:43:43,801 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.2.0.Final (Apache CXF 3.2.2) 
+2018-03-12 22:43:47,669 WARN  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0013: Deployment ArhitektureNaloge.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2018-03-12 22:43:48,749 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-7) ISPN000128: Infinispan version: Infinispan 'Bastille' 9.1.6.Final
+2018-03-12 22:43:49,502 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-03-12 22:43:50,596 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 64) Initializing Mojarra 2.2.13.SP5  for context '/ArhitektureNaloge'
+2018-03-12 22:43:54,115 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 64) Running on PrimeFaces 6.2
+2018-03-12 22:43:54,277 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 64) WFLYUT0021: Registered web context: '/ArhitektureNaloge' for server 'default-server'
+2018-03-12 22:43:54,434 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "ArhitektureNaloge.war" (runtime-name : "ArhitektureNaloge.war")
+2018-03-12 22:43:54,762 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2018-03-12 22:43:54,777 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-03-12 22:43:54,777 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-03-12 22:43:54,777 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) started in 47513ms - Started 419 of 611 services (315 services are lazy, passive or on-demand)
+2018-03-12 22:44:09,806 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 2) WFLYUT0022: Unregistered web context: '/ArhitektureNaloge' from server 'default-server'
+2018-03-12 22:44:10,640 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment ArhitektureNaloge.war (runtime-name: ArhitektureNaloge.war) in 856ms
+2018-03-12 22:44:11,173 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 22:44:16,231 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found ArhitektureNaloge.war in deployment directory. To trigger deployment create a file called ArhitektureNaloge.war.dodeploy
+2018-03-12 22:44:16,261 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 22:44:17,704 WARN  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0013: Deployment ArhitektureNaloge.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2018-03-12 22:44:17,865 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 4) Initializing Mojarra 2.2.13.SP5  for context '/ArhitektureNaloge'
+2018-03-12 22:44:19,265 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 4) Running on PrimeFaces 6.2
+2018-03-12 22:44:19,281 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 4) WFLYUT0021: Registered web context: '/ArhitektureNaloge' for server 'default-server'
+2018-03-12 22:44:19,345 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "ArhitektureNaloge.war" (runtime-name : "ArhitektureNaloge.war")
+2018-03-12 22:44:47,850 INFO  [org.hibernate.validator.internal.util.Version] (default task-1) HV000001: Hibernate Validator 5.3.6.Final
+2018-03-12 22:44:53,808 ERROR [stderr] (default task-1) Mon Mar 12 22:44:53 CET 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2018-03-12 22:44:54,250 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (default task-1) IJ000407: No lazy enlistment available for aiv123
+2018-03-12 22:45:55,037 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 4) WFLYUT0022: Unregistered web context: '/ArhitektureNaloge' from server 'default-server'
+2018-03-12 22:45:55,607 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment ArhitektureNaloge.war (runtime-name: ArhitektureNaloge.war) in 566ms
+2018-03-12 22:45:55,685 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 22:46:00,734 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ArhitektureNaloge.war in deployment directory. To trigger deployment create a file called ArhitektureNaloge.war.dodeploy
+2018-03-12 22:46:00,756 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "ArhitektureNaloge.war" (runtime-name: "ArhitektureNaloge.war")
+2018-03-12 22:46:02,707 WARN  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0013: Deployment ArhitektureNaloge.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2018-03-12 22:46:02,812 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 72) Initializing Mojarra 2.2.13.SP5  for context '/ArhitektureNaloge'
+2018-03-12 22:46:04,058 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 72) Running on PrimeFaces 6.2
+2018-03-12 22:46:04,073 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 72) WFLYUT0021: Registered web context: '/ArhitektureNaloge' for server 'default-server'
+2018-03-12 22:46:04,230 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "ArhitektureNaloge.war" (runtime-name : "ArhitektureNaloge.war")

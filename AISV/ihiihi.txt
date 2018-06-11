@@ -1,0 +1,497 @@
+meritve
+
+import java.text.SimpleDateFormat;
+
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+//import java.sql.Date;
+
+public class Meritve {
+	private Calendar datumMeritve;
+	private double visina;
+	private double obsegPasu;
+	public Meritve(double visina, double obsegPasu, double teza) {
+		super();
+		this.datumMeritve=new GregorianCalendar();
+		this.visina = visina;
+		this.obsegPasu = obsegPasu;
+		this.teza = teza;
+	}
+	private double teza;
+	
+    public Meritve() {
+		
+	}
+
+
+	public Calendar getDatumMeritve() {
+		return datumMeritve;
+	}
+
+	public void setDatumMeritve(Calendar datumMeritve) {
+		this.datumMeritve = datumMeritve;
+	}
+
+	public double getVisina() {
+		return visina;
+	}
+
+	public void setVisina(double visina) {
+		this.visina = visina;
+	}
+
+	public double getObsegPasu() {
+		return obsegPasu;
+	}
+
+	public void setObsegPasu(double obsegPasu) {
+		this.obsegPasu = obsegPasu;
+	}
+
+	public double getTeza() {
+		return teza;
+	}
+
+	public void setTeza(double teza) {
+		this.teza = teza;
+	}
+	private static SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd");
+	
+
+}
+
+
+
+
+
+
+èlanDao
+
+import java.sql.Connection;
+
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.Timestamp;
+import java.util.ArrayList;
+import java.util.GregorianCalendar;
+import java.util.List;
+
+import javax.naming.InitialContext;
+import javax.sql.DataSource;
+
+public class ÈlanDao {
+	
+	DataSource baza;
+
+	public ÈlanDao() {
+		try {
+			baza=(DataSource)new InitialContext().lookup("java:jboss/datasources/ExampleDS");	
+			kreirajTabele();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void kreirajTabele() throws Exception {
+		//try (Connection conn=baza.getConnection()) {
+		Connection conn=null;
+		try {
+			conn=baza.getConnection();
+			
+			conn.createStatement().execute("create table if not exists clan(ime varchar, priimek varchar, spol varchar, rojstvo timestamp, datum timestamp, sifra varchar)");
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			conn.close();
+		}
+	}
+
+	public Èlani najdi(String sifra) throws Exception {
+		Èlani ret = null;
+		//try (Connection conn=baza.getConnection()) {
+		Connection conn=null;
+		try {
+			conn=baza.getConnection();
+			PreparedStatement ps = conn.prepareStatement("select * from clan where sifra=?");
+			ps.setString(1, sifra);
+			ResultSet rs = ps.executeQuery();
+			while (rs.next()) {
+				ret = new Èlani(rs.getString("ime"), rs.getString("priimek"), rs.getString("spol"), sifra);
+				ret.getDatumVpisa().setTimeInMillis(rs.getTimestamp("datum").getTime());
+				ret.getDatum().setTimeInMillis(rs.getTimestamp("rojstvo").getTime());
+				break;
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			conn.close();
+		}
+		return ret;
+	}
+
+	public void shrani(Èlani o) throws Exception {
+		//try (Connection conn=baza.getConnection()) {
+		Connection conn=null;
+		try {
+			conn=baza.getConnection();
+				PreparedStatement ps = conn.prepareStatement("insert into clan(ime , priimek, spol, rojstvo, datum, sifra) values (?,?,?,?,?,?)");
+				ps.setString(1, o.getIme());
+				ps.setString(2, o.getPriimek());
+				ps.setString(3, o.getSpol());
+				o.setDatumVpisa(new GregorianCalendar());
+				o.setDatum(new GregorianCalendar());
+				ps.setTimestamp(4, new Timestamp(o.getDatum().getTimeInMillis()));
+				ps.setTimestamp(5, new Timestamp(o.getDatumVpisa().getTimeInMillis()));
+				ps.setString(6, o.getSifra());
+				ps.executeUpdate();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			conn.close();
+		}
+	}
+
+	public List<Èlani> vrniVse() throws Exception {
+		List<Èlani> ret = new ArrayList<Èlani>();
+		//try (Connection conn=baza.getConnection()) {
+		Connection conn=null;
+		try {
+			conn=baza.getConnection();
+
+			ResultSet rs=conn.createStatement().executeQuery("select * from clan");
+			while (rs.next()) {
+				Èlani o = new Èlani(rs.getString("ime"), rs.getString("priimek"), rs.getString("spol"), rs.getString("sifra"));
+				o.getDatum().setTimeInMillis(rs.getTimestamp("cas").getTime());
+				o.getDatumVpisa().setTimeInMillis(rs.getTimestamp("rojstvo").getTime());
+				ret.add(o);
+			}
+			rs.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			conn.close();
+		}
+		return ret;
+	}
+
+}
+
+
+
+meritveDao
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.naming.InitialContext;
+import javax.sql.DataSource;
+
+import java.sql.Timestamp;
+
+public class MeritveDao {
+	DataSource baza;
+
+	public MeritveDao() {
+		try {
+			baza=(DataSource)new InitialContext().lookup("java:jboss/datasources/ExampleDS");	
+			kreirajTabele();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void kreirajTabele() throws Exception {
+		//try (Connection conn=baza.getConnection()) {
+		Connection conn=null;
+		try {
+			conn=baza.getConnection();
+			
+			conn.createStatement().execute("create table if not exists meritve(datumMeritve timestamp, visina DOUBLE PRECISION, opsegPasu DOUBLE PRECISION, teza DOUBLE PRECISION, tk_sifra_clan varchar, FOREIGN KEY (tk_sifra_clan) REFERENCES clan(tk_sifra_clan))");
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			conn.close();
+		}
+	}
+	// sifra denes v metodi  preko izbranaOseba
+	public void shrani(Meritve o, String sifra) throws Exception {
+		//try (Connection conn=baza.getConnection()) {
+		Connection conn=null;
+		try {
+			conn=baza.getConnection();
+				PreparedStatement ps = conn.prepareStatement("insert into meritve(datumMeritve , visina, opsegPasu, teza, tk_sifra_clan) values (?,?,?,?,?)");
+				ps.setTimestamp(1, new Timestamp(o.getDatumMeritve().getTimeInMillis()));
+				ps.setDouble(2, o.getVisina());
+				ps.setDouble(3, o.getObsegPasu());
+				ps.setDouble(4, o.getTeza());
+				ps.setString(5, sifra);
+				ps.executeUpdate();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			conn.close();
+		}
+	}
+	public Meritve najdi(String sifra) throws Exception {
+		Meritve ret = null;
+		//try (Connection conn=baza.getConnection()) {
+		Connection conn=null;
+		try {
+			conn=baza.getConnection();
+			PreparedStatement ps = conn.prepareStatement("select * from meritve where tk_sifra_clan=?");
+			ps.setString(1, sifra);
+			ResultSet rs = ps.executeQuery();
+			while (rs.next()) {
+				ret = new Meritve(rs.getDouble("visina"), rs.getDouble("opsegPasu"), rs.getDouble("teza"));
+				ret.getDatumMeritve().setTimeInMillis(rs.getTimestamp("datumMeritve").getTime());
+				break;
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			conn.close();
+		}
+		return ret;
+	}
+	public List<Meritve> vrniVse() throws Exception {
+		List<Meritve> ret = new ArrayList<Meritve>();
+		//try (Connection conn=baza.getConnection()) {
+		Connection conn=null;
+		try {
+			conn=baza.getConnection();
+
+			ResultSet rs=conn.createStatement().executeQuery("select * from meritve");
+			while (rs.next()) {
+				Meritve o = new Meritve(rs.getDouble("visina"), rs.getDouble("opsegPasu"), rs.getDouble("teza"));
+				o.getDatumMeritve().setTimeInMillis(rs.getTimestamp("datumMeritve").getTime());
+				ret.add(o);
+			}
+			rs.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			conn.close();
+		}
+		return ret;
+	}
+
+
+}
+
+
+
+
+èlani
+
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+//import java.sql.Date;
+
+public class Èlani {
+	private String ime;
+	private String priimek;
+	private String spol;
+	private Calendar datum;
+	private Calendar datumVpisa;
+	private String sifra;
+	private ArrayList<Meritve> meritve = new ArrayList();
+	
+	public ArrayList<Meritve> getMeritve() {
+		return meritve;
+	}
+
+
+	public Èlani(String ime, String priimek, String spol, String sifra) {
+		super();
+		this.ime = ime;
+		this.priimek = priimek;
+		this.spol = spol;
+		this.datum=new GregorianCalendar();
+		this.datumVpisa=new GregorianCalendar();
+		this.sifra = sifra;
+	}
+
+
+	public void setMeritve(ArrayList<Meritve> meritve) {
+		this.meritve = meritve;
+	}
+
+
+	public Èlani() {
+		
+	}
+
+
+	public String getIme() {
+		return ime;
+	}
+
+
+	public void setIme(String ime) {
+		this.ime = ime;
+	}
+
+
+	public String getPriimek() {
+		return priimek;
+	}
+
+
+	public void setPriimek(String priimek) {
+		this.priimek = priimek;
+	}
+
+
+	public String getSpol() {
+		return spol;
+	}
+
+
+	public void setSpol(String spol) {
+		this.spol = spol;
+	}
+
+
+	public Calendar getDatum() {
+		return datum;
+	}
+
+
+	public void setDatum(Calendar datum) {
+		this.datum = datum;
+	}
+
+
+	public Calendar getDatumVpisa() {
+		return datumVpisa;
+	}
+
+
+	public void setDatumVpisa(Calendar datumVpisa) {
+		this.datumVpisa = datumVpisa;
+	}
+
+
+	public String getSifra() {
+		return sifra;
+	}
+
+
+	public void setSifra(String sifra) {
+		this.sifra = sifra;
+	}
+	
+	private static SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd");
+	
+
+}
+
+
+
+index
+
+
+<!DOCTYPE html>
+<html
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+	
+	<head>
+		<meta charset="UTF-8" />
+		<title>Demo</title>
+	</head>
+	
+	<body>
+		<h1>Dodajanje novih èlanov</h1>
+		
+		<f:view>
+			<h:form>
+			<table border = "0">
+			<tr>
+				<td>Ime:</td>
+				<td><h:inputText value="#{demo.novaOseba.ime}" >	
+				<f:validateRequired />
+			    </h:inputText></td>
+			</tr>
+			<tr>
+				<td>Priimek:</td>
+				<td><h:inputText value="#{demo.novaOseba.priimek}" >
+					<f:validateRequired />
+					</h:inputText></td>
+			</tr>
+			<tr>
+				
+				<td>Spol:</td>
+				<td><h:selectOneMenu value="#{demo.novaOseba.spol}">
+   	<f:selectItem itemValue="Ženski" itemLabel="Ženski" />
+   	<f:selectItem itemValue="Moški" itemLabel="Moški" />	
+				<f:validateRequired />
+				</h:selectOneMenu></td>
+			</tr>
+			<tr>
+				<td>Datum rojstva:</td>
+				<td><h:inputText type="date" value="#{demo.novaOseba.datum}" >		
+				<f:convertDateTime pattern="yyyy-MM-dd" />
+			    </h:inputText></td>
+			</tr>
+			<tr>
+				<td>Vnesi datum vpisa:</td>
+				<td><h:inputText type="date" value="#{demo.novaOseba.datumVpisa}" >
+				<f:convertDateTime pattern="yyyy-MM-dd" />
+			    </h:inputText></td>
+			</tr>
+			<tr>
+				<td>Vnesi šifro:</td>
+				<td><h:inputText value="#{demo.novaOseba.sifra}" >
+				<f:validateRequired />
+				</h:inputText></td>
+			</tr>
+			<tr>
+				<td>Vnesi datum meritve:</td>
+				<td><h:inputText type="date" value="#{demo.meritve.datumMeritve}" >
+				<f:convertDateTime pattern="yyyy-MM-dd" />
+			    </h:inputText></td>
+			</tr>
+			<tr>
+				<td>Vnesi višino:</td>
+				<td><h:inputText value="#{demo.meritve.visina}" >
+				<f:validateRequired />
+				</h:inputText></td>
+			</tr>
+			<tr>
+				<td>Vnesi obseg pasu:</td>
+				<td><h:inputText value="#{demo.meritve.obsegPasu}">
+				<f:validateRequired />
+				</h:inputText></td>
+			</tr>
+			<tr>
+				<td>Vnesi težo:</td>
+				<td><h:inputText value="#{demo.meritve.teza}">
+				<f:validateRequired />
+				</h:inputText></td>
+				<td><h:commandButton value="Dodaj" action="seznam.xhtml" actionListener="#{demo.dodajOsebo()}" /></td>
+			</tr>
+			</table>
+							
+			
+
+			</h:form>
+		</f:view>
+		
+	</body>
+	
+</html>
+
+
+
+
+
+MODELIRANJE ako je vise komunikacija u bijeloj upotrijebimo s plusicem, a u crnoj onda pisemo na strelice kaj se sve radi

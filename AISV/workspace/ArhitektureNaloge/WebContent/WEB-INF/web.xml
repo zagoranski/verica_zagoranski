@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>ArhitektureNaloge</display-name>
+  <welcome-file-list>
+    <welcome-file>/faces/vstopna.xhtml</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>Faces Servlet</servlet-name>
+    <servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Faces Servlet</servlet-name>
+    <url-pattern>/faces/*</url-pattern>
+  </servlet-mapping>
+  <security-constraint>
+		<display-name>c01</display-name>
+		<web-resource-collection>
+			<web-resource-name>vstopna</web-resource-name>
+			<url-pattern>/faces/vstopna.xhtml</url-pattern>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>*</role-name>
+		</auth-constraint>
+	</security-constraint>
+
+	<security-constraint>
+		<display-name>c01</display-name>
+		<web-resource-collection>
+			<web-resource-name>add</web-resource-name>
+			<url-pattern>/faces/uporabnikOkno.xhtml</url-pattern>
+			<url-pattern>/faces/uporabnikPodrobnosti.xhtml</url-pattern>
+			<url-pattern>/faces/novaMeritevUporabnik.xhtml</url-pattern>
+			<url-pattern>/faces/grafTeza.xhtml</url-pattern>
+			<url-pattern>/faces/grafITM.xhtml</url-pattern>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>uporabnik</role-name>
+		</auth-constraint>
+	</security-constraint>
+	
+		<security-constraint>
+		<display-name>c01</display-name>
+		<web-resource-collection>
+			<web-resource-name>recep</web-resource-name>
+			<url-pattern>/faces/index.xhtml</url-pattern>
+			<url-pattern>/faces/seznam.xhtml</url-pattern>
+			<url-pattern>/faces/podrobnosti.xhtml</url-pattern>
+			<url-pattern>/faces/novaMeritev.xhtml</url-pattern>
+			<url-pattern>/faces/urediMeritev.xhtml</url-pattern>
+			<url-pattern>/faces/urediOsebo.xhtml</url-pattern>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>receptor</role-name>
+		</auth-constraint>
+	</security-constraint>
+
+	<login-config>
+		<auth-method>FORM</auth-method>
+		<form-login-config>
+			<form-login-page>/faces/vstopna.xhtml</form-login-page>
+			<form-error-page>/faces/vstopna.xhtml</form-error-page>
+		</form-login-config>
+	</login-config>
+
+	<security-role>
+		<role-name>uporabnik</role-name>
+	</security-role>
+	<security-role>
+		<role-name>receptor</role-name>
+	</security-role>
+	<security-role>
+		<role-name>readonly</role-name>
+	</security-role>
+</web-app>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html
+xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+ <h:head>
+      <title>JSF Tutorial!</title>
+   </h:head>
+    
+<f:view>
+<h:form>
+		<table border = "0">
+			<tr>
+				<td>Od:</td>
+				<td><h:inputText type="date" value="#{demo.meritve.od}" >	
+                <f:convertDateTime pattern="yyyy-MM-dd" />
+			    </h:inputText></td>
+			</tr>
+			<tr>
+				<td>Do:</td>
+				<td><h:inputText type="date" value="#{demo.meritve.doo}" >
+					<f:convertDateTime pattern="yyyy-MM-dd" />
+					</h:inputText></td>
+			        <td><h:commandButton value="Prikazi" action="grafITM.xhtml" actionListener="#{demo.createLineModels3()}" /></td>
+			</tr>
+			</table>
+			</h:form>
+						
+	   <p:panel position="center">
+				 <p:chart type="line" model="#{demo.graf}" style="height:400px;"/>
+                  </p:panel>
+			<h:form><td><h:commandButton value="Graf teze" action="grafTeza.xhtml" actionListener="#{demo.createLineModels()}"/></td></h:form>
+			</f:view>
+		
+</html>

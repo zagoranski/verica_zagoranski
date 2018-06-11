@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html
+xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+ <h:head>
+      <title>JSF Tutorial!</title>
+   </h:head>
+    
+<f:view>
+				<h:form>
+                    <h:outputText value="Ispis vseh osebnih podatkov"/>
+					<table border="0">
+						<tr>
+							<td>Ime:</td>
+							<td><h:outputText value="#{demo.izbranaOseba.ime}"/></td>
+						</tr>
+						<tr>
+							<td>Priimek:</td>
+							<td><h:outputText value="#{demo.izbranaOseba.priimek}"/></td>
+						</tr>
+						<tr>
+							<td>Spol:</td>
+							<td><h:outputText value="#{demo.izbranaOseba.spol}"/></td>
+						</tr>
+						<tr>
+							<td>Datum rojstva:</td>
+								<td>
+								<h:outputText value="#{demo.izbranaOseba.datum}">
+									<f:convertDateTime pattern="yyyy-MM-dd" />
+								</h:outputText>
+							</td>
+						</tr>
+						<tr>
+							<td>Datum vpisa:</td>
+							<td>
+								<h:outputText value="#{demo.izbranaOseba.datumVpisa}">
+									<f:convertDateTime pattern="yyyy-MM-dd" />
+								</h:outputText>
+							</td>
+						</tr>
+					<tr>
+							<td>Sifra:</td>
+							<td><h:outputText value="#{demo.izbranaOseba.sifra}"/></td>
+						</tr>
+					</table>
+					<h:outputText value="Izpis vseh meritev"/>
+					<h:dataTable value="#{demo.izbranaOseba.meritve}" var="i">
+						<f:facet name="header">
+						</f:facet>
+						<h:column>
+							<f:facet name="header">
+								<h:outputText value="Datum meritve"/>
+							</f:facet>
+							<h:outputText  value="#{i.datumMeritve}"/>
+						</h:column>
+						<h:column>
+							<f:facet name="header">
+								<h:outputText value="Visina"/>
+							</f:facet>
+							<h:outputText  value="#{i.visina}"/>
+						</h:column>
+						<h:column>
+							<f:facet name="header">
+								<h:outputText value="Obseg pasu"/>
+							</f:facet>
+							<h:outputText  value="#{i.obsegPasu}"/>
+						</h:column>
+						<h:column>
+							<f:facet name="header">
+								<h:outputText value="Teza"/>
+							</f:facet>
+							<h:outputText  value="#{i.teza}"/>
+						</h:column>
+					</h:dataTable>
+					<td><h:commandButton value="Dodaj novo meritev" action="novaMeritevUporabnik.xhtml"/></td>
+					<td><h:commandButton value="Graf" action="grafTeza.xhtml" actionListener="#{demo.createLineModels()}"/></td>
+					 
+				</h:form>
+			
+			</f:view>
+		
+</html>

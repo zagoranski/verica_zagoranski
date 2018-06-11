@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://ClanSoap.aiv.feri.si/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="ClanSoapService" targetNamespace="http://ClanSoap.aiv.feri.si/">
+  <wsdl:types>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://ClanSoap.aiv.feri.si/" elementFormDefault="unqualified" targetNamespace="http://ClanSoap.aiv.feri.si/" version="1.0">
+
+  <xs:element name="dodajOsebo" type="tns:dodajOsebo"/>
+
+  <xs:element name="dodajOseboResponse" type="tns:dodajOseboResponse"/>
+
+  <xs:element name="izbrisiOsebo" type="tns:izbrisiOsebo"/>
+
+  <xs:element name="izbrisiOseboResponse" type="tns:izbrisiOseboResponse"/>
+
+  <xs:element name="spremeni" type="tns:spremeni"/>
+
+  <xs:element name="spremeniResponse" type="tns:spremeniResponse"/>
+
+  <xs:element name="vrniOsebo" type="tns:vrniOsebo"/>
+
+  <xs:element name="vrniOseboResponse" type="tns:vrniOseboResponse"/>
+
+  <xs:element name="vrniVseOsebe" type="tns:vrniVseOsebe"/>
+
+  <xs:element name="vrniVseOsebeResponse" type="tns:vrniVseOsebeResponse"/>
+
+  <xs:complexType name="vrniOsebo">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="vrniOseboResponse">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="izbrisiOsebo">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="izbrisiOseboResponse">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="vrniVseOsebe">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="vrniVseOsebeResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:osebaClan"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="osebaClan">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="datum" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="datumVpisa" type="xs:dateTime"/>
+      <xs:element name="id" type="xs:int"/>
+      <xs:element minOccurs="0" name="ime" type="xs:string"/>
+      <xs:element minOccurs="0" name="mail" type="xs:string"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="meritve" nillable="true" type="tns:meritev"/>
+      <xs:element minOccurs="0" name="priimek" type="xs:string"/>
+      <xs:element minOccurs="0" name="sifra" type="xs:string"/>
+      <xs:element minOccurs="0" name="spol" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="meritev">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="spremeni">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:osebaClan"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="spremeniResponse">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="dodajOsebo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:osebaClan"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="dodajOseboResponse">
+    <xs:sequence/>
+  </xs:complexType>
+
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="vrniOsebo">
+    <wsdl:part element="tns:vrniOsebo" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="izbrisiOseboResponse">
+    <wsdl:part element="tns:izbrisiOseboResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="vrniVseOsebeResponse">
+    <wsdl:part element="tns:vrniVseOsebeResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="spremeniResponse">
+    <wsdl:part element="tns:spremeniResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="spremeni">
+    <wsdl:part element="tns:spremeni" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="vrniOseboResponse">
+    <wsdl:part element="tns:vrniOseboResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="dodajOseboResponse">
+    <wsdl:part element="tns:dodajOseboResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="izbrisiOsebo">
+    <wsdl:part element="tns:izbrisiOsebo" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="vrniVseOsebe">
+    <wsdl:part element="tns:vrniVseOsebe" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="dodajOsebo">
+    <wsdl:part element="tns:dodajOsebo" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="ClanSoap">
+    <wsdl:operation name="vrniOsebo">
+      <wsdl:input message="tns:vrniOsebo" name="vrniOsebo">
+    </wsdl:input>
+      <wsdl:output message="tns:vrniOseboResponse" name="vrniOseboResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="izbrisiOsebo">
+      <wsdl:input message="tns:izbrisiOsebo" name="izbrisiOsebo">
+    </wsdl:input>
+      <wsdl:output message="tns:izbrisiOseboResponse" name="izbrisiOseboResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="vrniVseOsebe">
+      <wsdl:input message="tns:vrniVseOsebe" name="vrniVseOsebe">
+    </wsdl:input>
+      <wsdl:output message="tns:vrniVseOsebeResponse" name="vrniVseOsebeResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="spremeni">
+      <wsdl:input message="tns:spremeni" name="spremeni">
+    </wsdl:input>
+      <wsdl:output message="tns:spremeniResponse" name="spremeniResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dodajOsebo">
+      <wsdl:input message="tns:dodajOsebo" name="dodajOsebo">
+    </wsdl:input>
+      <wsdl:output message="tns:dodajOseboResponse" name="dodajOseboResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ClanSoapServiceSoapBinding" type="tns:ClanSoap">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="vrniOsebo">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="vrniOsebo">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="vrniOseboResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="izbrisiOsebo">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="izbrisiOsebo">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="izbrisiOseboResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="vrniVseOsebe">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="vrniVseOsebe">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="vrniVseOsebeResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="spremeni">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="spremeni">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="spremeniResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dodajOsebo">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="dodajOsebo">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="dodajOseboResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ClanSoapService">
+    <wsdl:port binding="tns:ClanSoapServiceSoapBinding" name="ClanSoapPort">
+      <soap:address location="http://localhost:8080/ArhitektureNaloge/ClanSoap"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+	
+	<ui:composition template="templateTrening.xhtml">
+	   <ui:define name="title"> Seznam vseh oseb </ui:define>
+	   <ui:define name="content">
+
+			<f:view>
+				<h:form>
+
+					<h:dataTable value="#{zrno.vrniVse()}" var="o">
+						<f:facet name="header">
+							<h:outputText value="Seznam vseh treningov"/>
+						</f:facet>
+						<h:column>
+							<f:facet name="header">
+								<h:outputText value="Naziv"/>
+							</f:facet>
+							<h:outputText  value="#{o.naziv}"/>
+						</h:column>
+						<h:column>
+							<f:facet name="header">
+								<h:outputText value="Sifra"/>
+							</f:facet>
+							<h:commandLink action="podrobnostiTreninga.xhtml" actionListener="#{zrno.najdi(o.sifraVadbe)}" value="#{o.sifraVadbe}"/>
+						</h:column>
+							<h:column>
+							<h:commandButton class="btn btn-success" action="#{zrno.izbrisi(o.sifraVadbe)}" value="Izbrisi"/>
+						</h:column>
+								<h:column>
+							<h:commandButton class="btn btn-success" action="urediTrening.xhtml" actionListener="#{zrno.najdi(o.sifraVadbe)}" value="Uredi"/>
+						</h:column>
+					</h:dataTable>
+					
+
+				</h:form>
+			</f:view>
+			</ui:define>
+	</ui:composition>
+</html>

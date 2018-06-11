@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+	
+<ui:composition template="predlogaUporabnik.xhtml">
+	   <ui:define name="title"> Stran za dodajanje nove meritve </ui:define>
+	   <ui:define name="content">
+		
+		<f:view>
+			<h:form>
+			<table border = "0">
+			<tr>
+				<td>Vnesi datum meritve:</td>
+				<td><h:inputText id="dm" type="date" value="#{demo.meritve.datumMeritve}" converterMessage="Format mora biti: yyyy-MM-dd">
+				<f:convertDateTime pattern="yyyy-MM-dd" />
+			    </h:inputText></td> <h:message for="dm" style="color:red" />
+			</tr>
+			<tr>
+				<td>Vnesi visino:</td>
+				<td><h:inputText value="#{demo.meritve.visina}" >
+				<f:validateRequired />
+				</h:inputText></td>
+			</tr>
+			<tr>
+				<td>Vnesi obseg pasu:</td>
+				<td><h:inputText value="#{demo.meritve.obsegPasu}">
+				<f:validateRequired />
+				</h:inputText></td>
+			</tr>
+			<tr>
+				<td>Vnesi tezo:</td>
+				<td><h:inputText value="#{demo.meritve.teza}">
+				<f:validateRequired />
+				</h:inputText></td>
+				<td><h:commandButton value="Dodaj" action="uporabnikOkno.xhtml" actionListener="#{demo.dodajMeritev()}" /></td>
+			</tr>
+			</table>
+							
+			
+
+			</h:form>
+		</f:view>
+		
+	</ui:define>
+	</ui:composition>
+</html>

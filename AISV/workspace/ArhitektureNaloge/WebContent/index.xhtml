@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+	
+	<ui:composition template="template.xhtml">
+	   <ui:define name="title"> Stran za dodajanje oseb </ui:define>
+	   <ui:define name="content">
+		<f:view>
+			<h:form>
+			<table border = "0">
+			<tr>
+				<td>Ime:</td>
+				<td><h:inputText value="#{demo.novaOseba.ime}" >	
+				<f:validateRequired />
+			    </h:inputText></td>
+			</tr>
+			<tr>
+				<td>Priimek:</td>
+				<td><h:inputText value="#{demo.novaOseba.priimek}" >
+					<f:validateRequired />
+					</h:inputText></td>
+			</tr>
+			<tr>
+				
+				<td>Spol:</td>
+				<td><h:selectOneMenu value="#{demo.novaOseba.spol}">
+   	<f:selectItem itemValue="Zenski" itemLabel="Zenski" />
+   	<f:selectItem itemValue="Moski" itemLabel="Moski" />	
+				<f:validateRequired />
+				</h:selectOneMenu></td>
+			</tr>
+			
+			<tr>
+				<td>Datum rojstva:</td>
+				<td><h:inputText id="dr" type="date" value="#{demo.novaOseba.datum}" converterMessage="Format mora biti: yyyy-MM-dd" >		
+				<f:convertDateTime pattern="yyyy-MM-dd" />
+			    </h:inputText></td> <h:message for="dr" style="color:red" />
+			    
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><h:inputText value="#{demo.novaOseba.mail}" >
+					<f:validateRequired />
+					</h:inputText></td>
+			</tr>
+			<tr>
+				<td>Vnesi datum vpisa:</td>
+				<td><h:inputText id="dv" type="date" value="#{demo.novaOseba.datumVpisa}" converterMessage="Format mora biti: yyyy-MM-dd">
+				<f:convertDateTime pattern="yyyy-MM-dd" />
+			    </h:inputText></td><h:message for="dv" style="color:red" />
+			</tr>
+			<tr>
+				<td>Vnesi sifro:</td>
+				<td><h:inputText id="sifra" value="#{demo.novaOseba.sifra}" validatorMessage="Sifra mora imeti 6 znakov!">
+				<f:validateLength minimum="6" maximum="6" />
+				<f:validateRequired />
+				</h:inputText></td> <h:message for="sifra" style="color:red" />
+			</tr>
+			<tr>
+				<td>Vnesi datum meritve:</td>
+				<td><h:inputText id="dm" type="date" value="#{demo.meritve.datumMeritve}" converterMessage="Format mora biti: yyyy-MM-dd">
+				<f:convertDateTime pattern="yyyy-MM-dd" />
+			    </h:inputText></td> <h:message for="dm" style="color:red" />
+			</tr>
+			<tr>
+				<td>Vnesi visino:</td>
+				<td><h:inputText value="#{demo.meritve.visina}" >
+				<f:validateRequired />
+				</h:inputText></td>
+			</tr>
+			<tr>
+				<td>Vnesi obseg pasu:</td>
+				<td><h:inputText value="#{demo.meritve.obsegPasu}">
+				<f:validateRequired />
+				</h:inputText></td>
+			</tr>
+			<tr>
+				<td>Vnesi tezo:</td>
+				<td><h:inputText value="#{demo.meritve.teza}">
+				<f:validateRequired />
+				</h:inputText></td>
+			</tr>
+			<tr>
+				
+				<td>Paket:</td>
+				<td><h:selectOneMenu value="#{demo.novaOseba.paket}">
+   	<f:selectItem itemValue="Mesecni paket" itemLabel="Mesecni paket" />
+   	<f:selectItem itemValue="Letni paket" itemLabel="Letni paket" />	
+				<f:validateRequired />
+				</h:selectOneMenu></td>
+				<td><h:commandButton value="Dodaj" action="seznam.xhtml" actionListener="#{demo.izberiPaket(demo.novaOseba.datumVpisa, demo.novaOseba.paket, demo.novaOseba.mail)}" /></td>
+			</tr>
+			</table>
+							
+			
+
+			</h:form>
+		</f:view>
+		
+	</ui:define>
+	</ui:composition>
+	
+</html>

@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+	
+	<ui:composition template="template.xhtml">
+	   <ui:define name="title"> Stran za dodajanje oseb </ui:define>
+	   <ui:define name="content">
+		<f:view>
+			<h:form>
+			<table border = "0">
+			<tr>
+				<td>Ime:</td>
+				<td><h:inputText value="#{demo.izbranaOseba.ime}" >	
+				<f:validateRequired />
+			    </h:inputText></td>
+			</tr>
+			<tr>
+				<td>Priimek:</td>
+				<td><h:inputText value="#{demo.izbranaOseba.priimek}" >
+					<f:validateRequired />
+					</h:inputText></td>
+			</tr>
+			<tr>
+				
+				<td>Spol:</td>
+				<td><h:selectOneMenu value="#{demo.izbranaOseba.spol}">
+   	<f:selectItem itemValue="Zenski" itemLabel="Zenski" />
+   	<f:selectItem itemValue="Moski" itemLabel="Moski" />	
+				<f:validateRequired />
+				</h:selectOneMenu></td>
+			</tr>
+			<tr>
+				<td>Datum rojstva:</td>
+				<td><h:inputText id="dr" type="date" value="#{demo.izbranaOseba.datum}" converterMessage="Format mora biti: yyyy-MM-dd" >		
+				<f:convertDateTime pattern="yyyy-MM-dd" />
+			    </h:inputText></td> <h:message for="dr" style="color:red" />
+			    
+			</tr>
+			<tr>
+				<td>Vnesi datum vpisa:</td>
+				<td><h:inputText id="dv" type="date" value="#{demo.izbranaOseba.datumVpisa}" converterMessage="Format mora biti: yyyy-MM-dd">
+				<f:convertDateTime pattern="yyyy-MM-dd" />
+			    </h:inputText></td><h:message for="dv" style="color:red" />
+				<td><h:commandButton value="Vredu" action="seznam.xhtml" actionListener="#{demo.urediOsebo()}" /></td>
+			</tr>
+			</table>
+							
+			
+
+			</h:form>
+		</f:view>
+		
+	</ui:define>
+	</ui:composition>
+	
+</html>

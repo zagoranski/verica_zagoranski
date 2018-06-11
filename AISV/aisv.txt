@@ -1,0 +1,80 @@
+xhtml podrobnosti da se ispise kada kliknemo na nesto na seznamu, prikazat cemo izbranaOseba.ime....
+a u razredu prvaNaloga dodamo jos jedan atribut - private Clan izbranaOseba = new Clan(); i jos dodamo za ta atribut get i set
+u podrobnosti na ime ili priimek napravimo link da kad kliknemo idemo na podrobnosti - <h: commandLine value="#{o.ime} actionListener="#{demo.izbranaOseba(o.email)}"
+u razred prvaNaloga dodamo metodu public Clan email(Clan o){
+izbranaOseba = o;
+}
+u podrobnosti se ispisu datumMeritve i meritve i jos gumb da se dodaju nove meritve
+
+u clani dodaj atribut arraylist meritve i set i get
+
+
+
+VZOREC EDINEC 3. naloga
+bez synchronized, ali ako imamo if(instance==null) onda stavimo synchronized, uporabimo synchronized
+
+v wildfly dodamo v module, system layers, com, mysql,main dodamo jar, dodamo tudi xml
+potem v standelone, konfiguracuja in v standalone dodamo <driver>
+potem create database
+in povezemo gremo na lolalhost//8080
+
+gremo na add pa custom pri datasources
+
+neki non x a
+
+
+
+4.naloga
+
+graf - primefaces, openfaces, hicharts
+
+nesme biti between, preko iteratora mora biti pri klicanju teže pa datumov
+
+
+
+
+"create table if not exists meritve(datumMeritve date, visina DOUBLE PRECISION, opsegPasu DOUBLE PRECISION, teza DOUBLE PRECISION, tk_sifra_clan varchar)"
+"create table if not exists clan(ime varchar, priimek varchar, spol varchar, rojstvo date, datum date, sifra varchar)"
+
+
+
+
+
+naloga 5. naredimo loèeni projekt z EJB(vmesnik in implementacija vmesnika @stateless, @local, @remote), zapakiramo v .jar, potem war in jar damo v EAR takoj ko delamo projekt
+prvo maknemo prvi projekt od tam di je server
+
+v ejb projektu naredimo neki razred session bean i tamo nesto klikamo lokal....
+
+zrno iz ejb projekta u nasem prvom uporabimo tako da poklièemi EJB, prej gremo na build path od prvea  in med projekte dodammo ejb projekt, potem klicemo zrne tako da pisemo iznad metode
+@EJB
+MojeZrnceLocal mz;
+metoda neka(){ preko mz dostopamo do metode}
+
+
+
+
+
+naloga 7. razred za vajo, vaj naj ima naziv, sifro, za del telesa, naprava, opis, slika (link ali damo v bazo), povezava na video da prikaze iz yt
+dodamo faket ejb tam je interface osebe in osebabeadn je stateless i implementira osebe iz jsfbean in napisemo @PersistenceContext EntityManager em; iznad metode i unutar metode oseba o = new Oseba();, poterm jsf tam je jsfbean, vao tam je oseba.java
+
+razred oseba oznacimo z @entity, getId oznacimo z @id
+
+meta inf noter je persistence.xml in tam dodamo paket vao.Oseba znotraj class
+
+
+
+naloga 10. u web.xml stavimo vloge
+u streznik add user (preko cmd do bin i onda add user), v web.xml konfiguracije pa preizkusimo
+
+
+
+
+
+naloga 11 . damo web serivce oznako
+
+u link dodamo kraj /Kalkulator ? wsdl
+
+u cmd stavimo wsimport pa link cijeli od gore  i tam kam spremimo to dodamo u neki projekt
+
+razred stavimo web serivce, ws import demonstriramo v loèenem navadnem projektu
+

@@ -1,0 +1,1118 @@
+2018-04-06 08:01:35,711 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2018-04-06 08:01:36,885 INFO  [org.jboss.msc] (main) JBoss MSC version 1.3.2.Final
+2018-04-06 08:01:36,915 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.1.Final
+2018-04-06 08:01:37,329 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) starting
+2018-04-06 08:01:37,333 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1250
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\jboss-modules.jar;C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_121\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_121
+	java.io.tmpdir = C:\Users\ADMINI~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_121-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final
+	jboss.host.name = desktop-9mmtd6a
+	jboss.modules.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-9mmtd6a
+	jboss.qualified.host.name = desktop-9mmtd6a
+	jboss.server.base.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\log
+	jboss.server.name = desktop-9mmtd6a
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\configuration\logging.properties
+	module.path = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 11
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_121\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1250
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = HR
+	user.dir = C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\bin
+	user.home = C:\Users\Administrator
+	user.language = hr
+	user.name = Administrator
+	user.script = 
+	user.timezone = Europe/Belgrade
+	user.variant = 
+2018-04-06 08:01:37,336 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=JBossTools: WildFly 11 -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1250 
+2018-04-06 08:01:43,227 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-04-06 08:01:43,366 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 26) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-04-06 08:01:43,543 INFO  [org.wildfly.security] (ServerService Thread Pool -- 18) ELY00001: WildFly Elytron version 1.2.2.Final
+2018-04-06 08:01:43,791 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found EARAiv.ear in deployment directory. To trigger deployment create a file called EARAiv.ear.dodeploy
+2018-04-06 08:01:43,966 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-04-06 08:01:44,048 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.6.2.Final
+2018-04-06 08:01:44,215 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.6.2.Final
+2018-04-06 08:01:44,858 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2018-04-06 08:01:44,887 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-04-06 08:01:44,912 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Activating Security Subsystem
+2018-04-06 08:01:44,916 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-04-06 08:01:44,980 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2018-04-06 08:01:45,012 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy version 3.5.0.Final
+2018-04-06 08:01:45,105 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Activating WebServices Extension
+2018-04-06 08:01:45,154 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Activating Naming Subsystem
+2018-04-06 08:01:46,165 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 2.0.0.Final starting
+2018-04-06 08:01:46,729 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.7.Final)
+2018-04-06 08:01:48,710 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-04-06 08:01:48,779 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = mysql
+2018-04-06 08:01:48,884 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-04-06 08:01:48,894 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2018-04-06 08:01:49,150 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-04-06 08:01:49,925 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2018-04-06 08:01:49,931 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-04-06 08:01:50,133 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.5.Final
+2018-04-06 08:01:50,525 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Creating file handler for path 'C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-04-06 08:01:51,056 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-04-06 08:01:51,056 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-04-06 08:01:51,526 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2018-04-06 08:01:51,806 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2018-04-06 08:01:52,433 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0493: EJB subsystem suspension complete
+2018-04-06 08:01:52,529 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-04-06 08:01:53,134 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-04-06 08:01:53,136 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/aiv123]
+2018-04-06 08:01:54,716 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2018-04-06 08:01:55,338 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-04-06 08:01:55,356 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Administrator\Desktop\AISV\wildfly-12.0.0.Final\standalone\deployments
+2018-04-06 08:01:55,450 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "EARAiv.ear" (runtime-name: "EARAiv.ear")
+2018-04-06 08:01:55,882 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0207: Starting subdeployment (runtime-name: "EJBProjekt.jar")
+2018-04-06 08:01:55,882 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "ArhitektureNaloge.war")
+2018-04-06 08:01:55,936 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-04-06 08:01:57,380 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 5.2.0.Final (Apache CXF 3.2.2) 
+2018-04-06 08:01:58,397 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for aivTreningi
+2018-04-06 08:01:59,618 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 63) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-06 08:01:59,664 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment EARAiv.ear
+2018-04-06 08:02:00,180 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 63) HHH000204: Processing PersistenceUnitInfo [
+	name: aivTreningi
+	...]
+2018-04-06 08:02:00,576 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-8) HV000001: Hibernate Validator 5.3.6.Final
+2018-04-06 08:02:01,092 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 63) HHH000412: Hibernate Core {5.1.10.Final}
+2018-04-06 08:02:01,105 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 63) HHH000206: hibernate.properties not found
+2018-04-06 08:02:01,109 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 63) HHH000021: Bytecode provider name : javassist
+2018-04-06 08:02:01,733 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment ArhitektureNaloge.war
+2018-04-06 08:02:01,809 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment EJBProjekt.jar
+2018-04-06 08:02:01,892 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'Zrnce' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:app/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:module/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:global/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:app/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:module/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:jboss/exported/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+
+2018-04-06 08:02:01,916 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'TreningiBean' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:app/EJBProjekt/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:module/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:global/EARAiv/EJBProjekt/TreningiBean
+	java:app/EJBProjekt/TreningiBean
+	java:module/TreningiBean
+
+2018-04-06 08:02:02,039 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 63) HCANN000001: Hibernate Commons Annotations {5.0.2.Final}
+2018-04-06 08:02:02,888 INFO  [org.jboss.weld.Version] (MSC service thread 1-3) WELD-000900: 3.0.3 (Final)
+2018-04-06 08:02:05,675 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 63) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-06 08:02:06,275 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-6) ISPN000128: Infinispan version: Infinispan 'Bastille' 9.1.6.Final
+2018-04-06 08:02:07,067 ERROR [stderr] (ServerService Thread Pool -- 63) Fri Apr 06 08:02:07 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2018-04-06 08:02:07,624 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 63) IJ000407: No lazy enlistment available for aiv123
+2018-04-06 08:02:07,656 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 65) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-04-06 08:02:07,735 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 63) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-06 08:02:08,121 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 63) Envers integration enabled? : true
+2018-04-06 08:02:12,829 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 63) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2851b5f1'
+2018-04-06 08:02:13,424 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-2) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2018-04-06 08:02:13,494 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-2) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.jberet.creation.BatchBeanProducer is deprecated from CDI 1.1!
+2018-04-06 08:02:13,549 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-2) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.hibernate.validator.internal.cdi.interceptor.ValidationInterceptor is deprecated from CDI 1.1!
+2018-04-06 08:02:16,109 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 65) Initializing Mojarra 2.2.13.SP5  for context '/ArhitektureNaloge'
+2018-04-06 08:02:19,598 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 65) Running on PrimeFaces 6.2
+2018-04-06 08:02:19,904 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0021: Registered web context: '/ArhitektureNaloge' for server 'default-server'
+2018-04-06 08:02:19,941 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "EARAiv.ear" (runtime-name : "EARAiv.ear")
+2018-04-06 08:02:20,478 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2018-04-06 08:02:20,483 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-04-06 08:02:20,484 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-04-06 08:02:20,485 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) started in 45977ms - Started 561 of 751 services (321 services are lazy, passive or on-demand)
+2018-04-06 08:07:31,015 WARNING [javax.enterprise.resource.webcontainer.jsf.lifecycle] (default task-1) /treningPrva.xhtml @16,62 value="#{zrno.noviTrening.sifraVadbe}": Target Unreachable, identifier 'zrno' resolved to null: javax.el.PropertyNotFoundException: /treningPrva.xhtml @16,62 value="#{zrno.noviTrening.sifraVadbe}": Target Unreachable, identifier 'zrno' resolved to null
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:100)
+	at com.sun.faces.renderkit.html_basic.HtmlBasicInputRenderer.getConvertedValue(HtmlBasicInputRenderer.java:95)
+	at javax.faces.component.UIInput.getConvertedValue(UIInput.java:1047)
+	at javax.faces.component.UIInput.validate(UIInput.java:977)
+	at javax.faces.component.UIInput.executeValidate(UIInput.java:1250)
+	at javax.faces.component.UIInput.processValidators(UIInput.java:714)
+	at javax.faces.component.UIForm.processValidators(UIForm.java:253)
+	at javax.faces.component.UIComponentBase.processValidators(UIComponentBase.java:1261)
+	at javax.faces.component.UIViewRoot.processValidators(UIViewRoot.java:1195)
+	at com.sun.faces.lifecycle.ProcessValidationsPhase.execute(ProcessValidationsPhase.java:76)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:658)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:67)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.el.PropertyNotFoundException: Target Unreachable, identifier 'zrno' resolved to null
+	at com.sun.el.parser.AstValue.getTarget(AstValue.java:173)
+	at com.sun.el.parser.AstValue.getType(AstValue.java:85)
+	at com.sun.el.ValueExpressionImpl.getType(ValueExpressionImpl.java:201)
+	at org.jboss.weld.module.web.el.WeldValueExpression.getType(WeldValueExpression.java:93)
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:98)
+	... 54 more
+
+2018-04-06 08:07:31,047 ERROR [io.undertow.request] (default task-1) UT005023: Exception handling request to /ArhitektureNaloge/faces/treningPrva.xhtml;jsessionid=eFHZhkNuLY2BIFvt15xsBW4kKn-peYg98ZpqEmA4.desktop-9mmtd6a: javax.servlet.ServletException: /treningPrva.xhtml @16,62 value="#{zrno.noviTrening.sifraVadbe}": Target Unreachable, identifier 'zrno' resolved to null
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:67)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.el.PropertyNotFoundException: /treningPrva.xhtml @16,62 value="#{zrno.noviTrening.sifraVadbe}": Target Unreachable, identifier 'zrno' resolved to null
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:100)
+	at com.sun.faces.renderkit.html_basic.HtmlBasicInputRenderer.getConvertedValue(HtmlBasicInputRenderer.java:95)
+	at javax.faces.component.UIInput.getConvertedValue(UIInput.java:1047)
+	at javax.faces.component.UIInput.validate(UIInput.java:977)
+	at javax.faces.component.UIInput.executeValidate(UIInput.java:1250)
+	at javax.faces.component.UIInput.processValidators(UIInput.java:714)
+	at javax.faces.component.UIForm.processValidators(UIForm.java:253)
+	at javax.faces.component.UIComponentBase.processValidators(UIComponentBase.java:1261)
+	at javax.faces.component.UIViewRoot.processValidators(UIViewRoot.java:1195)
+	at com.sun.faces.lifecycle.ProcessValidationsPhase.execute(ProcessValidationsPhase.java:76)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:658)
+	... 42 more
+Caused by: javax.el.PropertyNotFoundException: Target Unreachable, identifier 'zrno' resolved to null
+	at com.sun.el.parser.AstValue.getTarget(AstValue.java:173)
+	at com.sun.el.parser.AstValue.getType(AstValue.java:85)
+	at com.sun.el.ValueExpressionImpl.getType(ValueExpressionImpl.java:201)
+	at org.jboss.weld.module.web.el.WeldValueExpression.getType(WeldValueExpression.java:93)
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:98)
+	... 54 more
+
+2018-04-06 08:08:47,332 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0022: Unregistered web context: '/ArhitektureNaloge' from server 'default-server'
+2018-04-06 08:08:47,450 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 72) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-06 08:08:47,453 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (ServerService Thread Pool -- 72) HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-04-06 08:08:48,075 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 72) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-06 08:08:48,115 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0208: Stopped subdeployment (runtime-name: EJBProjekt.jar) in 811ms
+2018-04-06 08:08:48,519 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0208: Stopped subdeployment (runtime-name: ArhitektureNaloge.war) in 1216ms
+2018-04-06 08:08:48,521 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment EARAiv.ear (runtime-name: EARAiv.ear) in 1227ms
+2018-04-06 08:08:48,889 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "EARAiv.ear" (runtime-name: "EARAiv.ear")
+2018-04-06 08:08:53,943 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found EARAiv.ear in deployment directory. To trigger deployment create a file called EARAiv.ear.dodeploy
+2018-04-06 08:08:53,958 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "EARAiv.ear" (runtime-name: "EARAiv.ear")
+2018-04-06 08:08:54,012 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "ArhitektureNaloge.war")
+2018-04-06 08:08:54,012 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0207: Starting subdeployment (runtime-name: "EJBProjekt.jar")
+2018-04-06 08:08:54,843 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for aivTreningi
+2018-04-06 08:08:55,077 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 72) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-06 08:08:55,083 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 72) HHH000204: Processing PersistenceUnitInfo [
+	name: aivTreningi
+	...]
+2018-04-06 08:08:55,222 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment EARAiv.ear
+2018-04-06 08:08:55,340 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment EJBProjekt.jar
+2018-04-06 08:08:55,346 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'Zrnce' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:app/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:module/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:global/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:app/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:module/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:jboss/exported/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+
+2018-04-06 08:08:55,347 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'TreningiBean' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:app/EJBProjekt/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:module/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:global/EARAiv/EJBProjekt/TreningiBean
+	java:app/EJBProjekt/TreningiBean
+	java:module/TreningiBean
+
+2018-04-06 08:08:55,422 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ArhitektureNaloge.war
+2018-04-06 08:08:55,942 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 72) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-06 08:08:55,945 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 72) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-06 08:08:55,986 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 72) Envers integration enabled? : true
+2018-04-06 08:08:56,880 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 72) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2851b5f1'
+2018-04-06 08:08:57,009 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-6) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2018-04-06 08:08:57,013 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-6) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.jberet.creation.BatchBeanProducer is deprecated from CDI 1.1!
+2018-04-06 08:08:57,024 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-6) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.hibernate.validator.internal.cdi.interceptor.ValidationInterceptor is deprecated from CDI 1.1!
+2018-04-06 08:08:57,811 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 71) Initializing Mojarra 2.2.13.SP5  for context '/ArhitektureNaloge'
+2018-04-06 08:09:00,051 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 71) Running on PrimeFaces 6.2
+2018-04-06 08:09:00,177 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 71) WFLYUT0021: Registered web context: '/ArhitektureNaloge' for server 'default-server'
+2018-04-06 08:09:00,275 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "EARAiv.ear" (runtime-name : "EARAiv.ear")
+2018-04-06 08:09:42,201 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-1) HHH000397: Using ASTQueryTranslatorFactory
+2018-04-06 08:09:48,414 INFO  [stdout] (default task-1) si.feri.aiv.vao.Trening@721300a6     jrfidsjfosjfo
+2018-04-06 08:09:58,784 WARNING [javax.enterprise.resource.webcontainer.jsf.lifecycle] (default task-1) /urediTrening.xhtml @16,60 value="#{zrno.izbraniTrening.naziv}": Target Unreachable, 'null' returned null: javax.el.PropertyNotFoundException: /urediTrening.xhtml @16,60 value="#{zrno.izbraniTrening.naziv}": Target Unreachable, 'null' returned null
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:100)
+	at com.sun.faces.renderkit.html_basic.HtmlBasicInputRenderer.getConvertedValue(HtmlBasicInputRenderer.java:95)
+	at javax.faces.component.UIInput.getConvertedValue(UIInput.java:1047)
+	at javax.faces.component.UIInput.validate(UIInput.java:977)
+	at javax.faces.component.UIInput.executeValidate(UIInput.java:1250)
+	at javax.faces.component.UIInput.processValidators(UIInput.java:714)
+	at javax.faces.component.UIForm.processValidators(UIForm.java:253)
+	at javax.faces.component.UIComponentBase.processValidators(UIComponentBase.java:1261)
+	at javax.faces.component.UIViewRoot.processValidators(UIViewRoot.java:1195)
+	at com.sun.faces.lifecycle.ProcessValidationsPhase.execute(ProcessValidationsPhase.java:76)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:658)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:67)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.el.PropertyNotFoundException: Target Unreachable, 'null' returned null
+	at com.sun.el.parser.AstValue.getTarget(AstValue.java:191)
+	at com.sun.el.parser.AstValue.getType(AstValue.java:85)
+	at com.sun.el.ValueExpressionImpl.getType(ValueExpressionImpl.java:201)
+	at org.jboss.weld.module.web.el.WeldValueExpression.getType(WeldValueExpression.java:93)
+	at org.jboss.weld.module.web.el.WeldValueExpression.getType(WeldValueExpression.java:93)
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:98)
+	... 54 more
+
+2018-04-06 08:09:58,787 ERROR [io.undertow.request] (default task-1) UT005023: Exception handling request to /ArhitektureNaloge/faces/urediTrening.xhtml: javax.servlet.ServletException: /urediTrening.xhtml @16,60 value="#{zrno.izbraniTrening.naziv}": Target Unreachable, 'null' returned null
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:67)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.el.PropertyNotFoundException: /urediTrening.xhtml @16,60 value="#{zrno.izbraniTrening.naziv}": Target Unreachable, 'null' returned null
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:100)
+	at com.sun.faces.renderkit.html_basic.HtmlBasicInputRenderer.getConvertedValue(HtmlBasicInputRenderer.java:95)
+	at javax.faces.component.UIInput.getConvertedValue(UIInput.java:1047)
+	at javax.faces.component.UIInput.validate(UIInput.java:977)
+	at javax.faces.component.UIInput.executeValidate(UIInput.java:1250)
+	at javax.faces.component.UIInput.processValidators(UIInput.java:714)
+	at javax.faces.component.UIForm.processValidators(UIForm.java:253)
+	at javax.faces.component.UIComponentBase.processValidators(UIComponentBase.java:1261)
+	at javax.faces.component.UIViewRoot.processValidators(UIViewRoot.java:1195)
+	at com.sun.faces.lifecycle.ProcessValidationsPhase.execute(ProcessValidationsPhase.java:76)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:658)
+	... 42 more
+Caused by: javax.el.PropertyNotFoundException: Target Unreachable, 'null' returned null
+	at com.sun.el.parser.AstValue.getTarget(AstValue.java:191)
+	at com.sun.el.parser.AstValue.getType(AstValue.java:85)
+	at com.sun.el.ValueExpressionImpl.getType(ValueExpressionImpl.java:201)
+	at org.jboss.weld.module.web.el.WeldValueExpression.getType(WeldValueExpression.java:93)
+	at org.jboss.weld.module.web.el.WeldValueExpression.getType(WeldValueExpression.java:93)
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:98)
+	... 54 more
+
+2018-04-06 08:12:54,361 INFO  [stdout] (default task-1) si.feri.aiv.vao.Trening@f27b696     jrfidsjfosjfo
+2018-04-06 08:13:07,009 WARNING [javax.enterprise.resource.webcontainer.jsf.lifecycle] (default task-1) /urediTrening.xhtml @16,60 value="#{zrno.izbraniTrening.naziv}": Target Unreachable, 'null' returned null: javax.el.PropertyNotFoundException: /urediTrening.xhtml @16,60 value="#{zrno.izbraniTrening.naziv}": Target Unreachable, 'null' returned null
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:100)
+	at com.sun.faces.renderkit.html_basic.HtmlBasicInputRenderer.getConvertedValue(HtmlBasicInputRenderer.java:95)
+	at javax.faces.component.UIInput.getConvertedValue(UIInput.java:1047)
+	at javax.faces.component.UIInput.validate(UIInput.java:977)
+	at javax.faces.component.UIInput.executeValidate(UIInput.java:1250)
+	at javax.faces.component.UIInput.processValidators(UIInput.java:714)
+	at javax.faces.component.UIForm.processValidators(UIForm.java:253)
+	at javax.faces.component.UIComponentBase.processValidators(UIComponentBase.java:1261)
+	at javax.faces.component.UIViewRoot.processValidators(UIViewRoot.java:1195)
+	at com.sun.faces.lifecycle.ProcessValidationsPhase.execute(ProcessValidationsPhase.java:76)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:658)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:67)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.el.PropertyNotFoundException: Target Unreachable, 'null' returned null
+	at com.sun.el.parser.AstValue.getTarget(AstValue.java:191)
+	at com.sun.el.parser.AstValue.getType(AstValue.java:85)
+	at com.sun.el.ValueExpressionImpl.getType(ValueExpressionImpl.java:201)
+	at org.jboss.weld.module.web.el.WeldValueExpression.getType(WeldValueExpression.java:93)
+	at org.jboss.weld.module.web.el.WeldValueExpression.getType(WeldValueExpression.java:93)
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:98)
+	... 54 more
+
+2018-04-06 08:13:07,012 ERROR [io.undertow.request] (default task-1) UT005023: Exception handling request to /ArhitektureNaloge/faces/urediTrening.xhtml: javax.servlet.ServletException: /urediTrening.xhtml @16,60 value="#{zrno.izbraniTrening.naziv}": Target Unreachable, 'null' returned null
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:67)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.el.PropertyNotFoundException: /urediTrening.xhtml @16,60 value="#{zrno.izbraniTrening.naziv}": Target Unreachable, 'null' returned null
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:100)
+	at com.sun.faces.renderkit.html_basic.HtmlBasicInputRenderer.getConvertedValue(HtmlBasicInputRenderer.java:95)
+	at javax.faces.component.UIInput.getConvertedValue(UIInput.java:1047)
+	at javax.faces.component.UIInput.validate(UIInput.java:977)
+	at javax.faces.component.UIInput.executeValidate(UIInput.java:1250)
+	at javax.faces.component.UIInput.processValidators(UIInput.java:714)
+	at javax.faces.component.UIForm.processValidators(UIForm.java:253)
+	at javax.faces.component.UIComponentBase.processValidators(UIComponentBase.java:1261)
+	at javax.faces.component.UIViewRoot.processValidators(UIViewRoot.java:1195)
+	at com.sun.faces.lifecycle.ProcessValidationsPhase.execute(ProcessValidationsPhase.java:76)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:658)
+	... 42 more
+Caused by: javax.el.PropertyNotFoundException: Target Unreachable, 'null' returned null
+	at com.sun.el.parser.AstValue.getTarget(AstValue.java:191)
+	at com.sun.el.parser.AstValue.getType(AstValue.java:85)
+	at com.sun.el.ValueExpressionImpl.getType(ValueExpressionImpl.java:201)
+	at org.jboss.weld.module.web.el.WeldValueExpression.getType(WeldValueExpression.java:93)
+	at org.jboss.weld.module.web.el.WeldValueExpression.getType(WeldValueExpression.java:93)
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:98)
+	... 54 more
+
+2018-04-06 08:16:22,542 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0022: Unregistered web context: '/ArhitektureNaloge' from server 'default-server'
+2018-04-06 08:16:22,602 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-06 08:16:22,603 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (ServerService Thread Pool -- 80) HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-04-06 08:16:23,062 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-06 08:16:23,096 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: EJBProjekt.jar) in 567ms
+2018-04-06 08:16:23,463 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0208: Stopped subdeployment (runtime-name: ArhitektureNaloge.war) in 934ms
+2018-04-06 08:16:23,470 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment EARAiv.ear (runtime-name: EARAiv.ear) in 941ms
+2018-04-06 08:16:23,640 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "EARAiv.ear" (runtime-name: "EARAiv.ear")
+2018-04-06 08:16:53,763 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found EARAiv.ear in deployment directory. To trigger deployment create a file called EARAiv.ear.dodeploy
+2018-04-06 08:16:53,778 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "EARAiv.ear" (runtime-name: "EARAiv.ear")
+2018-04-06 08:16:53,863 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "EJBProjekt.jar")
+2018-04-06 08:16:53,868 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0207: Starting subdeployment (runtime-name: "ArhitektureNaloge.war")
+2018-04-06 08:16:54,919 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for aivTreningi
+2018-04-06 08:16:55,091 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-06 08:16:55,100 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 80) HHH000204: Processing PersistenceUnitInfo [
+	name: aivTreningi
+	...]
+2018-04-06 08:16:55,245 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment EARAiv.ear
+2018-04-06 08:16:55,390 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment EJBProjekt.jar
+2018-04-06 08:16:55,395 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'Zrnce' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:app/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:module/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:global/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:app/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:module/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:jboss/exported/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+
+2018-04-06 08:16:55,396 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'TreningiBean' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:app/EJBProjekt/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:module/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:global/EARAiv/EJBProjekt/TreningiBean
+	java:app/EJBProjekt/TreningiBean
+	java:module/TreningiBean
+
+2018-04-06 08:16:55,493 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment ArhitektureNaloge.war
+2018-04-06 08:16:55,788 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-06 08:16:55,790 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 80) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-06 08:16:55,807 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 80) Envers integration enabled? : true
+2018-04-06 08:16:56,710 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 80) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2851b5f1'
+2018-04-06 08:16:56,780 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-7) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2018-04-06 08:16:56,782 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-7) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.hibernate.validator.internal.cdi.interceptor.ValidationInterceptor is deprecated from CDI 1.1!
+2018-04-06 08:16:56,785 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-7) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.jberet.creation.BatchBeanProducer is deprecated from CDI 1.1!
+2018-04-06 08:16:57,320 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 82) Initializing Mojarra 2.2.13.SP5  for context '/ArhitektureNaloge'
+2018-04-06 08:16:58,936 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 82) Running on PrimeFaces 6.2
+2018-04-06 08:16:58,940 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 82) WFLYUT0021: Registered web context: '/ArhitektureNaloge' for server 'default-server'
+2018-04-06 08:16:59,023 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "EARAiv.ear" (runtime-name : "EARAiv.ear")
+2018-04-06 08:17:22,154 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-1) HHH000397: Using ASTQueryTranslatorFactory
+2018-04-06 08:17:34,016 INFO  [stdout] (default task-1) si.feri.aiv.vao.Trening@25eac0d6     jrfidsjfosjfo
+2018-04-06 08:17:37,667 WARNING [javax.enterprise.resource.webcontainer.jsf.lifecycle] (default task-1) /urediTrening.xhtml @16,60 value="#{zrno.izbraniTrening.naziv}": Target Unreachable, 'null' returned null: javax.el.PropertyNotFoundException: /urediTrening.xhtml @16,60 value="#{zrno.izbraniTrening.naziv}": Target Unreachable, 'null' returned null
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:100)
+	at com.sun.faces.renderkit.html_basic.HtmlBasicInputRenderer.getConvertedValue(HtmlBasicInputRenderer.java:95)
+	at javax.faces.component.UIInput.getConvertedValue(UIInput.java:1047)
+	at javax.faces.component.UIInput.validate(UIInput.java:977)
+	at javax.faces.component.UIInput.executeValidate(UIInput.java:1250)
+	at javax.faces.component.UIInput.processValidators(UIInput.java:714)
+	at javax.faces.component.UIForm.processValidators(UIForm.java:253)
+	at javax.faces.component.UIComponentBase.processValidators(UIComponentBase.java:1261)
+	at javax.faces.component.UIViewRoot.processValidators(UIViewRoot.java:1195)
+	at com.sun.faces.lifecycle.ProcessValidationsPhase.execute(ProcessValidationsPhase.java:76)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:658)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:67)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.el.PropertyNotFoundException: Target Unreachable, 'null' returned null
+	at com.sun.el.parser.AstValue.getTarget(AstValue.java:191)
+	at com.sun.el.parser.AstValue.getType(AstValue.java:85)
+	at com.sun.el.ValueExpressionImpl.getType(ValueExpressionImpl.java:201)
+	at org.jboss.weld.module.web.el.WeldValueExpression.getType(WeldValueExpression.java:93)
+	at org.jboss.weld.module.web.el.WeldValueExpression.getType(WeldValueExpression.java:93)
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:98)
+	... 54 more
+
+2018-04-06 08:17:37,671 ERROR [io.undertow.request] (default task-1) UT005023: Exception handling request to /ArhitektureNaloge/faces/urediTrening.xhtml: javax.servlet.ServletException: /urediTrening.xhtml @16,60 value="#{zrno.izbraniTrening.naziv}": Target Unreachable, 'null' returned null
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:67)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.el.PropertyNotFoundException: /urediTrening.xhtml @16,60 value="#{zrno.izbraniTrening.naziv}": Target Unreachable, 'null' returned null
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:100)
+	at com.sun.faces.renderkit.html_basic.HtmlBasicInputRenderer.getConvertedValue(HtmlBasicInputRenderer.java:95)
+	at javax.faces.component.UIInput.getConvertedValue(UIInput.java:1047)
+	at javax.faces.component.UIInput.validate(UIInput.java:977)
+	at javax.faces.component.UIInput.executeValidate(UIInput.java:1250)
+	at javax.faces.component.UIInput.processValidators(UIInput.java:714)
+	at javax.faces.component.UIForm.processValidators(UIForm.java:253)
+	at javax.faces.component.UIComponentBase.processValidators(UIComponentBase.java:1261)
+	at javax.faces.component.UIViewRoot.processValidators(UIViewRoot.java:1195)
+	at com.sun.faces.lifecycle.ProcessValidationsPhase.execute(ProcessValidationsPhase.java:76)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:658)
+	... 42 more
+Caused by: javax.el.PropertyNotFoundException: Target Unreachable, 'null' returned null
+	at com.sun.el.parser.AstValue.getTarget(AstValue.java:191)
+	at com.sun.el.parser.AstValue.getType(AstValue.java:85)
+	at com.sun.el.ValueExpressionImpl.getType(ValueExpressionImpl.java:201)
+	at org.jboss.weld.module.web.el.WeldValueExpression.getType(WeldValueExpression.java:93)
+	at org.jboss.weld.module.web.el.WeldValueExpression.getType(WeldValueExpression.java:93)
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:98)
+	... 54 more
+
+2018-04-06 09:24:28,928 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 82) WFLYUT0022: Unregistered web context: '/ArhitektureNaloge' from server 'default-server'
+2018-04-06 09:24:28,981 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 88) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-06 09:24:28,981 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (ServerService Thread Pool -- 88) HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-04-06 09:24:29,012 ERROR [stderr] (ServerService Thread Pool -- 88) Fri Apr 06 09:24:29 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2018-04-06 09:24:29,512 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 88) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-06 09:24:29,574 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0208: Stopped subdeployment (runtime-name: EJBProjekt.jar) in 660ms
+2018-04-06 09:24:29,824 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: ArhitektureNaloge.war) in 912ms
+2018-04-06 09:24:29,824 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment EARAiv.ear (runtime-name: EARAiv.ear) in 916ms
+2018-04-06 09:24:29,920 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "EARAiv.ear" (runtime-name: "EARAiv.ear")
+2018-04-06 09:24:35,034 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found EARAiv.ear in deployment directory. To trigger deployment create a file called EARAiv.ear.dodeploy
+2018-04-06 09:24:35,046 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "EARAiv.ear" (runtime-name: "EARAiv.ear")
+2018-04-06 09:24:35,093 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "ArhitektureNaloge.war")
+2018-04-06 09:24:35,093 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "EJBProjekt.jar")
+2018-04-06 09:24:35,624 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for aivTreningi
+2018-04-06 09:24:35,852 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 88) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-06 09:24:35,856 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 88) HHH000204: Processing PersistenceUnitInfo [
+	name: aivTreningi
+	...]
+2018-04-06 09:24:35,896 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment EARAiv.ear
+2018-04-06 09:24:36,021 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment EJBProjekt.jar
+2018-04-06 09:24:36,021 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'Zrnce' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:app/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:module/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:global/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:app/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:module/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:jboss/exported/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+
+2018-04-06 09:24:36,021 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'TreningiBean' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:app/EJBProjekt/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:module/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:global/EARAiv/EJBProjekt/TreningiBean
+	java:app/EJBProjekt/TreningiBean
+	java:module/TreningiBean
+
+2018-04-06 09:24:36,099 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment ArhitektureNaloge.war
+2018-04-06 09:24:36,370 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 88) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-06 09:24:36,370 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 88) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-06 09:24:36,417 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 88) Envers integration enabled? : true
+2018-04-06 09:24:37,348 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 88) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2851b5f1'
+2018-04-06 09:24:37,418 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-3) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2018-04-06 09:24:37,418 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-3) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.jberet.creation.BatchBeanProducer is deprecated from CDI 1.1!
+2018-04-06 09:24:37,418 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-3) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.hibernate.validator.internal.cdi.interceptor.ValidationInterceptor is deprecated from CDI 1.1!
+2018-04-06 09:24:37,942 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 90) Initializing Mojarra 2.2.13.SP5  for context '/ArhitektureNaloge'
+2018-04-06 09:24:39,723 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 90) Running on PrimeFaces 6.2
+2018-04-06 09:24:39,774 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0021: Registered web context: '/ArhitektureNaloge' for server 'default-server'
+2018-04-06 09:24:39,867 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "EARAiv.ear" (runtime-name : "EARAiv.ear")
+2018-04-06 09:25:26,379 ERROR [io.undertow.request] (default task-1) UT005023: Exception handling request to /ArhitektureNaloge/faces/vstopna.xhtml: java.lang.RuntimeException: javax.servlet.ServletException: Error Parsing /vstopna.xhtml: Error Traced[line: 13] The element type "input" must be terminated by the matching end-tag "</input>".
+	at io.undertow.servlet.handlers.security.ServletFormAuthenticationMechanism.servePage(ServletFormAuthenticationMechanism.java:149)
+	at io.undertow.security.impl.FormAuthenticationMechanism.sendChallenge(FormAuthenticationMechanism.java:176)
+	at io.undertow.security.impl.SecurityContextImpl$ChallengeSender.transition(SecurityContextImpl.java:301)
+	at io.undertow.security.impl.SecurityContextImpl$ChallengeSender.transition(SecurityContextImpl.java:319)
+	at io.undertow.security.impl.SecurityContextImpl$ChallengeSender.access$300(SecurityContextImpl.java:284)
+	at io.undertow.security.impl.SecurityContextImpl.sendChallenges(SecurityContextImpl.java:130)
+	at io.undertow.security.impl.SecurityContextImpl.authTransition(SecurityContextImpl.java:102)
+	at io.undertow.security.impl.SecurityContextImpl.authTransition(SecurityContextImpl.java:107)
+	at io.undertow.security.impl.SecurityContextImpl.authenticate(SecurityContextImpl.java:92)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:55)
+	at io.undertow.server.handlers.DisableCacheHandler.handleRequest(DisableCacheHandler.java:33)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AuthenticationConstraintHandler.handleRequest(AuthenticationConstraintHandler.java:53)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.servlet.handlers.security.ServletSecurityConstraintHandler.handleRequest(ServletSecurityConstraintHandler.java:59)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1526)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.servlet.ServletException: Error Parsing /vstopna.xhtml: Error Traced[line: 13] The element type "input" must be terminated by the matching end-tag "</input>".
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:671)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:67)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:274)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchToPath(ServletInitialHandler.java:209)
+	at io.undertow.servlet.spec.RequestDispatcherImpl.forwardImpl(RequestDispatcherImpl.java:221)
+	at io.undertow.servlet.spec.RequestDispatcherImpl.forwardImplSetup(RequestDispatcherImpl.java:147)
+	at io.undertow.servlet.spec.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:111)
+	at io.undertow.servlet.handlers.security.ServletFormAuthenticationMechanism.servePage(ServletFormAuthenticationMechanism.java:147)
+	... 46 more
+Caused by: javax.faces.view.facelets.FaceletException: Error Parsing /vstopna.xhtml: Error Traced[line: 13] The element type "input" must be terminated by the matching end-tag "</input>".
+	at com.sun.faces.facelets.compiler.SAXCompiler.doCompile(SAXCompiler.java:466)
+	at com.sun.faces.facelets.compiler.SAXCompiler.doMetadataCompile(SAXCompiler.java:449)
+	at com.sun.faces.facelets.compiler.Compiler.metadataCompile(Compiler.java:130)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory.createMetadataFacelet(DefaultFaceletFactory.java:503)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory.access$200(DefaultFaceletFactory.java:106)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory$2.newInstance(DefaultFaceletFactory.java:205)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory$2.newInstance(DefaultFaceletFactory.java:203)
+	at com.sun.faces.facelets.impl.DefaultFaceletCache$2.newInstance(DefaultFaceletCache.java:97)
+	at com.sun.faces.facelets.impl.DefaultFaceletCache$2.newInstance(DefaultFaceletCache.java:92)
+	at com.sun.faces.util.ExpiringConcurrentCache$1.call(ExpiringConcurrentCache.java:99)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at com.sun.faces.util.ExpiringConcurrentCache.get(ExpiringConcurrentCache.java:114)
+	at com.sun.faces.facelets.impl.DefaultFaceletCache.getViewMetadataFacelet(DefaultFaceletCache.java:146)
+	at com.sun.faces.facelets.impl.DefaultFaceletCache.getViewMetadataFacelet(DefaultFaceletCache.java:63)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory.getMetadataFacelet(DefaultFaceletFactory.java:316)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory.getMetadataFacelet(DefaultFaceletFactory.java:246)
+	at com.sun.faces.application.view.ViewMetadataImpl.createMetadataView(ViewMetadataImpl.java:138)
+	at com.sun.faces.lifecycle.RestoreViewPhase.execute(RestoreViewPhase.java:243)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.RestoreViewPhase.doPhase(RestoreViewPhase.java:123)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:658)
+	... 59 more
+
+2018-04-06 09:37:23,853 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 93) WFLYUT0022: Unregistered web context: '/ArhitektureNaloge' from server 'default-server'
+2018-04-06 09:37:23,943 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 98) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-06 09:37:23,943 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (ServerService Thread Pool -- 98) HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-04-06 09:37:24,365 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 98) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-06 09:37:24,396 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0208: Stopped subdeployment (runtime-name: EJBProjekt.jar) in 547ms
+2018-04-06 09:37:24,646 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0208: Stopped subdeployment (runtime-name: ArhitektureNaloge.war) in 803ms
+2018-04-06 09:37:24,646 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment EARAiv.ear (runtime-name: EARAiv.ear) in 809ms
+2018-04-06 09:37:24,724 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "EARAiv.ear" (runtime-name: "EARAiv.ear")
+2018-04-06 09:37:29,820 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found EARAiv.ear in deployment directory. To trigger deployment create a file called EARAiv.ear.dodeploy
+2018-04-06 09:37:29,827 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "EARAiv.ear" (runtime-name: "EARAiv.ear")
+2018-04-06 09:37:29,873 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "EJBProjekt.jar")
+2018-04-06 09:37:29,873 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "ArhitektureNaloge.war")
+2018-04-06 09:37:30,409 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for aivTreningi
+2018-04-06 09:37:30,550 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 98) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-06 09:37:30,550 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 98) HHH000204: Processing PersistenceUnitInfo [
+	name: aivTreningi
+	...]
+2018-04-06 09:37:30,691 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment EARAiv.ear
+2018-04-06 09:37:30,784 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment EJBProjekt.jar
+2018-04-06 09:37:30,800 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'Zrnce' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:app/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:module/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:global/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:app/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:module/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:jboss/exported/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+
+2018-04-06 09:37:30,800 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'TreningiBean' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:app/EJBProjekt/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:module/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:global/EARAiv/EJBProjekt/TreningiBean
+	java:app/EJBProjekt/TreningiBean
+	java:module/TreningiBean
+
+2018-04-06 09:37:30,831 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment ArhitektureNaloge.war
+2018-04-06 09:37:31,242 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 98) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-06 09:37:31,242 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 98) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-06 09:37:31,257 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 98) Envers integration enabled? : true
+2018-04-06 09:37:32,302 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 98) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2851b5f1'
+2018-04-06 09:37:32,359 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-8) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2018-04-06 09:37:32,375 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-8) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.jberet.creation.BatchBeanProducer is deprecated from CDI 1.1!
+2018-04-06 09:37:32,375 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-8) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.hibernate.validator.internal.cdi.interceptor.ValidationInterceptor is deprecated from CDI 1.1!
+2018-04-06 09:37:32,938 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 98) Initializing Mojarra 2.2.13.SP5  for context '/ArhitektureNaloge'
+2018-04-06 09:37:34,346 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 98) Running on PrimeFaces 6.2
+2018-04-06 09:37:34,359 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 98) WFLYUT0021: Registered web context: '/ArhitektureNaloge' for server 'default-server'
+2018-04-06 09:37:34,484 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "EARAiv.ear" (runtime-name : "EARAiv.ear")
+2018-04-06 09:38:24,771 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 98) WFLYUT0022: Unregistered web context: '/ArhitektureNaloge' from server 'default-server'
+2018-04-06 09:38:24,864 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 108) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-06 09:38:24,864 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (ServerService Thread Pool -- 108) HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-04-06 09:38:25,254 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 108) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-06 09:38:25,270 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0208: Stopped subdeployment (runtime-name: EJBProjekt.jar) in 510ms
+2018-04-06 09:38:25,536 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0208: Stopped subdeployment (runtime-name: ArhitektureNaloge.war) in 777ms
+2018-04-06 09:38:25,536 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment EARAiv.ear (runtime-name: EARAiv.ear) in 782ms
+2018-04-06 09:38:25,583 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "EARAiv.ear" (runtime-name: "EARAiv.ear")
+2018-04-06 09:38:30,675 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found EARAiv.ear in deployment directory. To trigger deployment create a file called EARAiv.ear.dodeploy
+2018-04-06 09:38:30,686 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "EARAiv.ear" (runtime-name: "EARAiv.ear")
+2018-04-06 09:38:30,717 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "EJBProjekt.jar")
+2018-04-06 09:38:30,717 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0207: Starting subdeployment (runtime-name: "ArhitektureNaloge.war")
+2018-04-06 09:38:31,255 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for aivTreningi
+2018-04-06 09:38:31,396 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 108) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-06 09:38:31,396 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 108) HHH000204: Processing PersistenceUnitInfo [
+	name: aivTreningi
+	...]
+2018-04-06 09:38:31,442 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment EARAiv.ear
+2018-04-06 09:38:31,505 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment EJBProjekt.jar
+2018-04-06 09:38:31,505 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'Zrnce' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:app/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:module/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:global/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:app/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:module/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:jboss/exported/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+
+2018-04-06 09:38:31,505 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'TreningiBean' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:app/EJBProjekt/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:module/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:global/EARAiv/EJBProjekt/TreningiBean
+	java:app/EJBProjekt/TreningiBean
+	java:module/TreningiBean
+
+2018-04-06 09:38:31,552 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ArhitektureNaloge.war
+2018-04-06 09:38:31,896 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 108) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-06 09:38:31,905 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 108) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-06 09:38:31,907 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 108) Envers integration enabled? : true
+2018-04-06 09:38:33,222 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 108) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2851b5f1'
+2018-04-06 09:38:33,278 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-5) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2018-04-06 09:38:33,278 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-5) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.hibernate.validator.internal.cdi.interceptor.ValidationInterceptor is deprecated from CDI 1.1!
+2018-04-06 09:38:33,278 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-5) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.jberet.creation.BatchBeanProducer is deprecated from CDI 1.1!
+2018-04-06 09:38:33,669 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 106) Initializing Mojarra 2.2.13.SP5  for context '/ArhitektureNaloge'
+2018-04-06 09:38:34,988 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 106) Running on PrimeFaces 6.2
+2018-04-06 09:38:35,001 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 106) WFLYUT0021: Registered web context: '/ArhitektureNaloge' for server 'default-server'
+2018-04-06 09:38:35,063 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "EARAiv.ear" (runtime-name : "EARAiv.ear")
+2018-04-06 09:43:06,426 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 106) WFLYUT0022: Unregistered web context: '/ArhitektureNaloge' from server 'default-server'
+2018-04-06 09:43:06,476 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 119) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-06 09:43:06,492 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (ServerService Thread Pool -- 119) HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-04-06 09:43:06,927 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 119) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-06 09:43:06,958 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0208: Stopped subdeployment (runtime-name: EJBProjekt.jar) in 531ms
+2018-04-06 09:43:07,178 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0208: Stopped subdeployment (runtime-name: ArhitektureNaloge.war) in 753ms
+2018-04-06 09:43:07,178 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment EARAiv.ear (runtime-name: EARAiv.ear) in 755ms
+2018-04-06 09:43:07,241 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "EARAiv.ear" (runtime-name: "EARAiv.ear")
+2018-04-06 09:43:12,361 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found EARAiv.ear in deployment directory. To trigger deployment create a file called EARAiv.ear.dodeploy
+2018-04-06 09:43:12,384 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "EARAiv.ear" (runtime-name: "EARAiv.ear")
+2018-04-06 09:43:12,432 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "ArhitektureNaloge.war")
+2018-04-06 09:43:12,432 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "EJBProjekt.jar")
+2018-04-06 09:43:13,260 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for aivTreningi
+2018-04-06 09:43:13,411 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 119) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-06 09:43:13,411 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 119) HHH000204: Processing PersistenceUnitInfo [
+	name: aivTreningi
+	...]
+2018-04-06 09:43:13,475 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment EARAiv.ear
+2018-04-06 09:43:13,564 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment EJBProjekt.jar
+2018-04-06 09:43:13,564 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'Zrnce' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:app/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:module/Zrnce!si.feri.arhitekture.ZrnceLocal
+	java:global/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:app/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:module/Zrnce!si.feri.arhitekture.ZrnceRemote
+	java:jboss/exported/EARAiv/EJBProjekt/Zrnce!si.feri.arhitekture.ZrnceRemote
+
+2018-04-06 09:43:13,564 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'TreningiBean' in deployment unit 'subdeployment "EJBProjekt.jar" of deployment "EARAiv.ear"' are as follows:
+
+	java:global/EARAiv/EJBProjekt/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:app/EJBProjekt/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:module/TreningiBean!si.feri.aiv.ejb.Treningi
+	java:global/EARAiv/EJBProjekt/TreningiBean
+	java:app/EJBProjekt/TreningiBean
+	java:module/TreningiBean
+
+2018-04-06 09:43:13,595 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment ArhitektureNaloge.war
+2018-04-06 09:43:13,880 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 119) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'EARAiv.ear/EJBProjekt.jar#aivTreningi'
+2018-04-06 09:43:13,880 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 119) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-06 09:43:13,896 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 119) Envers integration enabled? : true
+2018-04-06 09:43:14,847 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 119) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2851b5f1'
+2018-04-06 09:43:14,901 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-4) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2018-04-06 09:43:14,905 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-4) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.hibernate.validator.internal.cdi.interceptor.ValidationInterceptor is deprecated from CDI 1.1!
+2018-04-06 09:43:14,913 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-4) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.jberet.creation.BatchBeanProducer is deprecated from CDI 1.1!
+2018-04-06 09:43:15,521 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 115) Initializing Mojarra 2.2.13.SP5  for context '/ArhitektureNaloge'
+2018-04-06 09:43:17,312 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 115) Running on PrimeFaces 6.2
+2018-04-06 09:43:17,316 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 115) WFLYUT0021: Registered web context: '/ArhitektureNaloge' for server 'default-server'
+2018-04-06 09:43:17,363 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "EARAiv.ear" (runtime-name : "EARAiv.ear")
